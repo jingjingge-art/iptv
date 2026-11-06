@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>分组测速｜下载/上传独立Ping与波形【修复下载曲线】</title>
+<style>
+*{box-sizing:border-box;font-family:system-ui, sans-serif;margin:0;padding:0;}
+body{background:#12141d;color:#eee;padding:16px;max-width:1240px;margin:0 auto;}
+h1{text-align:center;margin-bottom:20px;font-size:22px;}
+.box{background:#1e2230;padding:18px;border-radius:12px;margin-bottom:16px;}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:12px;}
+select, button{padding:10px 14px;font-size:15px;border-radius:8px;border:none;}
+button{background:#2563eb;color:#fff;cursor:pointer;}
+button:disabled{background:#444;cursor:not-allowed;}
+#status{margin:10px 0;color:#94a3b8;min-height:24px;}
+.result-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(130px,1fr));gap:10px;margin:14px 0;}
+.res-item{background:#272c3f;padding:12px;border-radius:8px;text-align:center;}
+.res-item .val{font-size:22px;font-weight:bold;color:#38bdf8;}
+canvas{width:100%;height:220px;background:#171a27;border-radius:8px;margin-top:10px;}
+.group-wrap{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:12px 0;}
+.group-box{background:#1a1e2c;padding:10px;border-radius:10px;}
+.group-box h3{font-size:15px;margin-bottom:8px;color:#90caf9;}
+.node-list{max-height:180px;overflow:auto;}
+.node-row{padding:5px 8px;border-bottom:1px solid #2c3144;font-size:12.5px;}
+.node-row.best{background:#233458;}
+.label-dl{color:#4ade80;}
+.label-ul{color:#facc15;}
+.chart-block{margin-top:14px;}
+.chart-block h4{margin-bottom:6px;font-size:14px;color:#cbd5e1;}
+</style>
+</head>
+<body>
+<h1>分组测速：下载 / 上传分别Ping排序</h1>
+
+<div class="box">
+  <div class="row">
+    <button id="pingGroupBtn">分别Ping【下载组】&【上传组】</button>
+    <div>
+      <span class="label-dl">下载节点:</span>
+      <select id="dlNodeSelect">
+        <option value="">--先执行分组Ping--</option>
+      </select>
+    </div>
+    <div>
+      <span class="label-ul">上传节点:</span>
+      <select id="ulNodeSelect">
+        <option value="">--先执行分组Ping--</option>
+      </select>
+    </div>
+    <button id="startBtn" disabled>开始测速(下载30s→上传30s)</button>
+    <button id="stopBtn" disabled>停止</button>
+  </div>
+  <div id="status">状态：等待操作</div>
+
+  <div class="group-wrap">
+    <div class="group-box">
+      <h3 class="label-dl">📥 下载节点列表（按Ping延迟）</h3>
+      <div id="dlNodeList" class="node-list"></div>
+    </div>
+    <div class="group-box">
+      <h3 class="label-ul">📤 上传节点列表（按Ping延迟）</h3>
+      <div id="ulNodeList" class="node-list"></div>
+    </div>
+  </div>
+
+  <div class="result-grid">
+    <div class="res-item">
+      <div>Ping(ms)</div>
+      <div class="val" id="pingVal">--</div>
+    </div>
+    <div class="res-item">
+      <div>抖动(ms)</div>
+      <div class="val" id="jitterVal">--</div>
+    </div>
+    <div class="res-item">
+      <div>下载(Mbps)</div>
+      <div class="val" id="dlVal">--</div>
+    </div>
+    <div class="res-item">
+      <div>上传(Mbps)</div>
+      <div class="val" id="ulVal">--</div>
+    </div>
+  </div>
+
+  <div class="chart-block">
+    <h4>📥 下载速率实时变化曲线</h4>
+    <canvas id="dlChart"></canvas>
+  </div>
+  <div class="chart-block">
+    <h4>📤 上传速率实时变化曲线</h4>
+    <canvas id="ulChart"></canvas>
+  </div>
+</div>
+
+<script>
+// 原始全部线路
+const nodeRawList = [
+  {name:"TM北马-下载1", url:"https://speedtest-northern.tm.com.my:8080/download?nocache=fc5e9131-8b9e-4a0c-8d08-47cb0f9eafda&size=27027381&guid=cf4de7c0-d9ea-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"TM北马-下载2", url:"https://speedtest-northern.tm.com.my:8080/download?nocache=329b43df-a533-4070-abf8-461da5e28de8&size=25000000&guid=cf4de7c0-d9ea-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"TM柔佛-下载1", url:"https://sjaspeedtest.tm.com.my.prod.hosts.ooklaserver.net:8080/download?nocache=0375a85c-cbee-4f74-a432-83eb81c227a2&size=25000000&guid=158648e0-d9eb-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"TM柔佛-下载2", url:"https://sjaspeedtest.tm.com.my.prod.hosts.ooklaserver.net:8080/download?nocache=df102fca-f5bb-4200-b017-cbd7cce3b707&size=25000000&guid=158648e0-d9eb-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"TM柔佛-下载3", url:"https://sjaspeedtest.tm.com.my.prod.hosts.ooklaserver.net:8080/download?nocache=73b1a08d-76d4-4c2c-a85d-6daadd7d8965&size=25000000&guid=158648e0-d9eb-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"CelcomDigi-下载", url:"https://sht-ookla03.celcomdigi.com.prod.hosts.ooklaserver.net:8080/download?nocache=488a8493-e30a-4ac9-8e08-dbc312e49e0a&size=31172793&guid=803847b0-d9eb-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"YTL-下载", url:"https://speedtest2.ytlcomms.my:8080/download?nocache=20a0a57d-e728-4d9f-b5ec-28de19918529&size=25000000&guid=b7609c60-d9eb-11f1-bbda-b72453ca3712", type:"download"},
+  {name:"Shinjiru-下载1(JWT)", url:"https://sp1.shinjiru.com.my.prod.hosts.ooklaserver.net:8080/download?nocache=eca2444a-c22e-4a16-bc66-7681201281b2&size=25000000&guid=ea212aaf-fbdb-4186-b189-aa3d352a8f8a&ct=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL3d3dy5vb2tsYS5jb20iLCJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbSIsImp0aSI6Ijg2YjcyNmY0LWNjOGUtNDU0YS05NTU2LTExZGUyZmJjMmMzNCIsImlhdCI6MTc5Mzk3NDIzMywiZXhwIjoxNzk0MDYwNjMzLCJpc3MiOiJvb2tsYS5jb20iLCJzdWIiOiJvb2tsYS5jb20ifQ.KvA5j2pp5uMdMKzT6ohXQhN2ZJJqf_3Cq8erYWcd9Lcrvm1jXrhGXHGhLAi8qFNmLg0wKTfzReIxjSrk-rsESf0CTB9Pyv5RSYZfVCjocFQDEAT-m63XkjMsdg3-IIqS2r1L9W2J69EUkTBgcOPUvODZyh1iQ3hrondQKlAeTjTSsf5YtHuUxgUoG4m7g7VTRnjQhdJv_aVLiynrrOGKjB4XA3juPeGWRH2If6K_ro9foKdcuJ3UCUGQlhNpPKuyzaJFsnJo7BFE6lUc42BgXy6Cs_1MtA0D_2hqXvpbClTNJWL8209Z8DKhVpHgIQb7wfUwwyAVrMvnP77pmUfPNXx2vu1jw44K3XiDct8xvNAEbtDm0OEdfBRBh3Ge3PxxoC8Egt6qA3uo-1bHVlHNAL9sCkx8rHGLHIenrHW57tXc2-GLl481Cw9ZHDSWhPG5qjugQevc7bydv8HLk9dJBCSXnHviJ87jFp9h9VWOUYHtIIDuKyy0_5HtLBbA7ZyoX94-9_6L6j4BEY4WEeCwHe2RomcpglwaOr6zjqUxXdRVkUpIZh_w7DHol2R-jPxkyM5o7UIvwnJA2M8G-9UhEsnC7rOxdUJ-65ZtSaVaDDFrbIdPPzuWF2ZuD8KyqIE7lIMQT6t26iGq1EeRbbzH9dPb4LJOHvIhuC9UyoRkmMI&ajaxreq=1", type:"download"},
+  {name:"Shinjiru-下载2(JWT)", url:"https://sp1.shinjiru.com.my.prod.hosts.ooklaserver.net:8080/download?nocache=25aa828c-bf09-4b46-93a7-c52d612867e3&size=25000000&guid=ea212aaf-fbdb-4186-b189-aa3d352a8f8a&ct=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL3d3dy5vb2tsYS5jb20iLCJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbSIsImp0aSI6Ijg2YjcyNmY0LWNjOGUtNDU0YS05NTU2LTExZGUyZmJjMmMzNCIsImlhdCI6MTc5Mzk3NDIzMywiZXhwIjoxNzk0MDYwNjMzLCJpc3MiOiJvb2tsYS5jb20iLCJzdWIiOiJvb2tsYS5jb20ifQ.KvA5j2pp5uMdMKzT6ohXQhN2ZJJqf_3Cq8erYWcd9Lcrvm1jXrhGXHGhLAi8qFNmLg0wKTfzReIxjSrk-rsESf0CTB9Pyv5RSYZfVCjocFQDEAT-m63XkjMsdg3-IIqS2r1L9W2J69EUkTBgcOPUvODZyh1iQ3hrondQKlAeTjTSsf5YtHuUxgUoG4m7g7VTRnjQhdJv_aVLiynrrOGKjB4XA3juPeGWRH2If6K_ro9foKdcuJ3UCUGQlhNpPKuyzaJFsnJo7BFE6lUc42BgXy6Cs_1MtA0D_2hqXvpbClTNJWL8209Z8DKhVpHgIQb7wfUwwyAVrMvnP77pmUfPNXx2vu1jw44K3XiDct8xvNAEbtDm0OEdfBRBh3Ge3PxxoC8Egt6qA3uo-1bHVlHNAL9sCkx8rHGLHIenrHW57tXc2-GLl481Cw9ZHDSWhPG5qjugQevc7bydv8HLk9dJBCSXnHviJ87jFp9h9VWOUYHtIIDuKyy0_5HtLBbA7ZyoX94-9_6L6j4BEY4WEeCwHe2RomcpglwaOr6zjqUxXdRVkUpIZh_w7DHol2R-jPxkyM5o7UIvwnJA2M8G-9UhEsnC7rOxdUJ-65ZtSaVaDDFrbIdPPzuWF2ZuD8KyqIE7lIMQT6t26iGq1EeRbbzH9dPb4LJOHvIhuC9UyoRkmMI&ajaxreq=1", type:"download"},
+  {name:"Shinjiru-上传(JWT)", url:"https://sp1.shinjiru.com.my.prod.hosts.ooklaserver.net:8080/upload?nocache=3b11b390-e97e-499f-93f1-97227e3a6e55&guid=ea212aaf-fbdb-4186-b189-aa3d352a8f8a&ct=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL3d3dy5vb2tsYS5jb20iLCJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbSIsImp0aSI6Ijg2YjcyNmY0LWNjOGUtNDU0YS05NTU2LTExZGUyZmJjMmMzNCIsImlhdCI6MTc5Mzk3NDIzMywiZXhwIjoxNzk0MDYwNjMzLCJpc3MiOiJvb2tsYS5jb20iLCJzdWIiOiJvb2tsYS5jb20ifQ.KvA5j2pp5uMdMKzT6ohXQhN2ZJJqf_3Cq8erYWcd9Lcrvm1jXrhGXHGhLAi8qFNmLg0wKTfzReIxjSrk-rsESf0CTB9Pyv5RSYZfVCjocFQDEAT-m63XkjMsdg3-IIqS2r1L9W2J69EUkTBgcOPUvODZyh1iQ3hrondQKlAeTjTSsf5YtHuUxgUoG4m7g7VTRnjQhdJv_aVLiynrrOGKjB4XA3juPeGWRH2If6K_ro9foKdcuJ3UCUGQlhNpPKuyzaJFsnJo7BFE6lUc42BgXy6Cs_1MtA0D_2hqXvpbClTNJWL8209Z8DKhVpHgIQb7wfUwwyAVrMvnP77pmUfPNXx2vu1jw44K3XiDct8xvNAEbtDm0OEdfBRBh3Ge3PxxoC8Egt6qA3uo-1bHVlHNAL9sCkx8rHGLHIenrHW57tXc2-GLl481Cw9ZHDSWhPG5qjugQevc7bydv8HLk9dJBCSXnHviJ87jFp9h9VWOUYHtIIDuKyy0_5HtLBbA7ZyoX94-9_6L6j4BEY4WEeCwHe2RomcpglwaOr6zjqUxXdRVkUpIZh_w7DHol2R-jPxkyM5o7UIvwnJA2M8G-9UhEsnC7rOxdUJ-65ZtSaVaDDFrbIdPPzuWF2ZuD8KyqIE7lIMQT6t26iGq1EeRbbzH9dPb4LJOHvIhuC9UyoRkmMI&ajaxreq=1", type:"upload"},
+  {name:"中科大-ping(empty)", url:"https://test.ustc.edu.cn/backend/empty.php?r=0.4636669646884569", type:"ping"},
+  {name:"中科大-上传(garbage)", url:"https://test.ustc.edu.cn/backend/garbage.php?r=0.5798236185878067&ckSize=100", type:"upload"}
+];
+
+// 分组
+const dlRaw = nodeRawList.filter(x=>x.type==="download");
+const ulRaw = nodeRawList.filter(x=>x.type==="upload");
+
+// DOM
+const pingGroupBtn = document.getElementById("pingGroupBtn");
+const dlNodeSelect = document.getElementById("dlNodeSelect");
+const ulNodeSelect = document.getElementById("ulNodeSelect");
+const dlNodeList = document.getElementById("dlNodeList");
+const ulNodeList = document.getElementById("ulNodeList");
+const startBtn = document.getElementById("startBtn");
+const stopBtn = document.getElementById("stopBtn");
+const statusEl = document.getElementById("status");
+const pingVal = document.getElementById("pingVal");
+const jitterVal = document.getElementById("jitterVal");
+const dlVal = document.getElementById("dlVal");
+const ulVal = document.getElementById("ulVal");
+
+const dlCanvas = document.getElementById("dlChart");
+const ulCanvas = document.getElementById("ulChart");
+const dlCtx = dlCanvas.getContext("2d");
+const ulCtx = ulCanvas.getContext("2d");
+
+let dlPingList = [];
+let ulPingList = [];
+let abortController = null;
+let dlSpeedPoints = [];
+let ulSpeedPoints = [];
+
+function logStatus(s){ statusEl.innerText = "状态："+s; }
+
+// ping单个节点 HEAD
+async function pingOne(node){
+  const t0 = performance.now();
+  try{
+    const ac = new AbortController();
+    await fetch(node.url, {method:"HEAD", signal:ac.signal, mode:"no-cors"});
+    const t1 = performance.now();
+    return {ok:true, latency: t1-t0, name:node.name, url:node.url};
+  }catch(e){
+    return {ok:false, latency:9999, name:node.name, url:node.url};
+  }
+}
+
+// 绘制通用波形
+function drawCurve(ctx, canvas, points, lineColor="#38bdf8"){
+  const w = canvas.width;
+  const h = canvas.height;
+  ctx.fillStyle="#171a27";
+  ctx.fillRect(0,0,w,h);
+  if(points.length<2) return;
+  ctx.strokeStyle = lineColor;
+  ctx.lineWidth=2;
+  ctx.beginPath();
+  const maxV = Math.max(...points) || 1;
+  points.forEach((v,i)=>{
+    const x = w * (i/(points.length-1));
+    const y = h - (v/maxV)*h*0.9;
+    i===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+  });
+  ctx.stroke();
+}
+
+function clearAllChart(){
+  dlSpeedPoints=[];ulSpeedPoints=[];
+  drawCurve(dlCtx, dlCanvas, [], "#4ade80");
+  drawCurve(ulCtx, ulCanvas, [], "#facc15");
+}
+
+// 分组Ping按钮
+pingGroupBtn.onclick = async ()=>{
+  logStatus("正在分别Ping【下载组】、【上传组】节点...");
+  pingGroupBtn.disabled = true;
+  startBtn.disabled = true;
+  dlNodeList.innerHTML="";ulNodeList.innerHTML="";
+  dlNodeSelect.innerHTML=`<option value="">加载中</option>`;
+  ulNodeSelect.innerHTML=`<option value="">加载中</option>`;
+  clearAllChart();
+
+  // ping下载组
+  const dlTasks = dlRaw.map(n=>pingOne(n));
+  dlPingList = await Promise.all(dlTasks);
+  dlPingList.sort((a,b)=>a.latency - b.latency);
+
+  // ping上传组
+  const ulTasks = ulRaw.map(n=>pingOne(n));
+  ulPingList = await Promise.all(ulTasks);
+  ulPingList.sort((a,b)=>a.latency - b.latency);
+
+  // 渲染下载下拉+列表
+  dlNodeSelect.innerHTML="";
+  dlPingList.forEach((r,idx)=>{
+    const opt = document.createElement("option");
+    opt.value=idx;
+    opt.textContent = `[${r.latency.toFixed(1)}ms] ${r.name}`;
+    dlNodeSelect.appendChild(opt);
+
+    const div = document.createElement("div");
+    div.className = "node-row"+(idx===0?" best":"");
+    div.textContent = `#${idx+1} ${r.latency.toFixed(1)}ms | ${r.name}`;
+    dlNodeList.appendChild(div);
+  });
+
+  // 渲染上传下拉+列表
+  ulNodeSelect.innerHTML="";
+  ulPingList.forEach((r,idx)=>{
+    const opt = document.createElement("option");
+    opt.value=idx;
+    opt.textContent = `[${r.latency.toFixed(1)}ms] ${r.name}`;
+    ulNodeSelect.appendChild(opt);
+
+    const div = document.createElement("div");
+    div.className = "node-row"+(idx===0?" best":"");
+    div.textContent = `#${idx+1} ${r.latency.toFixed(1)}ms | ${r.name}`;
+    ulNodeList.appendChild(div);
+  });
+
+  pingGroupBtn.disabled = false;
+  startBtn.disabled = false;
+  logStatus("分组Ping完成；下载、上传已各自按延迟排序，请选择节点测速");
+  resetResultUi();
+};
+
+function resetResultUi(){
+  pingVal.innerText="--";jitterVal.innerText="--";dlVal.innerText="--";ulVal.innerText="--";
+  clearAllChart();
+}
+
+// ==========【修复下载测速】改用XHR，支持progress事件，解决一次性返回没有分块导致曲线不动 ==========
+async function runDownload(url, maxTimeMs){
+  return new Promise(resolve=>{
+    abortController = new AbortController();
+    const xhr = new XMLHttpRequest();
+    let totalBytes = 0;
+    const tStart = performance.now();
+    let lastT = tStart;
+    let lastB = 0;
+    dlSpeedPoints = [];
+
+    xhr.open("GET", url, true);
+    xhr.responseType = "arraybuffer";
+
+    const timerInterval = setInterval(()=>{
+      const now = performance.now();
+      if(abortController.signal.aborted || (now - tStart)>=maxTimeMs){
+        xhr.abort();
+      }
+    },100);
+
+    xhr.onprogress = (e)=>{
+      if(abortController.signal.aborted) return;
+      const now = performance.now();
+      totalBytes = e.loaded;
+      const dt = now - lastT;
+      if(dt>200){
+        const db = totalBytes - lastB;
+        const mbps = (db*8 / 1e6) / (dt/1000);
+        dlSpeedPoints.push(mbps);
+        drawCurve(dlCtx, dlCanvas, dlSpeedPoints, "#4ade80");
+        lastT = now;
+        lastB = totalBytes;
+      }
+    };
+
+    xhr.onloadend = ()=>{
+      clearInterval(timerInterval);
+      const dur = (performance.now()-tStart)/1000;
+      const avg = dur>0 ? (totalBytes*8 /1e6)/dur : 0;
+      resolve(avg);
+    };
+
+    abortController.signal.addEventListener("abort", ()=>{
+      xhr.abort();
+    });
+
+    xhr.send();
+  });
+}
+
+// 上传测速 maxTime ms
+async function runUpload(url, maxTimeMs){
+  abortController = new AbortController();
+  const sig = abortController.signal;
+  const blockSize = 128*1024;
+  const block = new Uint8Array(blockSize);
+  let totalBytes = 0;
+  const tStart = performance.now();
+  let lastT = tStart; let lastB = 0;
+  ulSpeedPoints = [];
+  try{
+    while(true){
+      const now = performance.now();
+      if(now - tStart >= maxTimeMs || sig.aborted) break;
+      await fetch(url, {method:"POST", body:block, signal:sig, keepalive:false});
+      totalBytes += blockSize;
+      const dt = now - lastT;
+      if(dt>200){
+        const db = totalBytes - lastB;
+        const mbps = (db*8/1e6)/(dt/1000);
+        ulSpeedPoints.push(mbps);
+        drawCurve(ulCtx, ulCanvas, ulSpeedPoints, "#facc15");
+        lastT = now; lastB = totalBytes;
+      }
+    }
+  }catch(e){}
+  const dur = (performance.now()-tStart)/1000;
+  return dur>0 ? (totalBytes*8/1e6)/dur :0;
+}
+
+startBtn.onclick = async ()=>{
+  const dlIdx = dlNodeSelect.value;
+  const ulIdx = ulNodeSelect.value;
+  if(dlIdx===""||ulIdx===""){
+    alert("请先执行【分别Ping下载组&上传组】");
+    return;
+  }
+  startBtn.disabled=true; stopBtn.disabled=false;
+  resetResultUi();
+
+  const dlNode = dlPingList[dlIdx];
+  const ulNode = ulPingList[ulIdx];
+  logStatus(`测速：下载→${dlNode.name}，上传→${ulNode.name}`);
+
+  // 使用下载节点的ping作为显示ping值
+  pingVal.innerText = dlNode.latency.toFixed(1);
+  jitterVal.innerText = "N/A";
+
+  // 下载30秒
+  dlVal.innerText="测试中…";
+  const dlAvg = await runDownload(dlNode.url, 30*1000);
+  dlVal.innerText = dlAvg.toFixed(2);
+
+  // 上传30秒
+  ulVal.innerText="测试中…";
+  const ulAvg = await runUpload(ulNode.url,30*1000);
+  ulVal.innerText = ulAvg.toFixed(2);
+
+  abortController=null;
+  startBtn.disabled=false; stopBtn.disabled=true;
+  logStatus("全部测速完成");
+};
+
+stopBtn.onclick = ()=>{
+  if(abortController) abortController.abort();
+  logStatus("手动停止测速");
+  stopBtn.disabled=true;
+  startBtn.disabled=false;
+};
+
+// canvas响应式
+function resizeCanvas(){
+  const r1 = dlCanvas.getBoundingClientRect();
+  dlCanvas.width = r1.width; dlCanvas.height = r1.height;
+  const r2 = ulCanvas.getBoundingClientRect();
+  ulCanvas.width = r2.width; ulCanvas.height = r2.height;
+  clearAllChart();
+}
+window.addEventListener("resize", resizeCanvas);
+resizeCanvas();
+</script>
+</body>
+</html>
