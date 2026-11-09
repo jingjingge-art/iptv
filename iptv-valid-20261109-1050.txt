@@ -1,0 +1,1017 @@
+🇮🇩 Nasional,#genre#
+MNCTV,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|Referer=https://www.visionplus.id
+TransTV,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd|Referer=https://www.visionplus.id
+TVOne,http://khano.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8
+TVRI World,http://cdn.nng.cloudns.us/live/m3u8/id/3f58825fe229a8i.m3u8
+BN Channel,http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
+MOJI,http://khano.nng.cloudns.us/live/m3u8/id/d4ff175b1e2d419.m3u8
+TVRI Nasional HD,http://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a9f.m3u8
+RCTI,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd|Referer=https://www.visionplus.id
+CNN Indonesia,http://khano.nng.cloudns.us/live/m3u8/id/d12f0b99ed1f070.m3u8
+SCTV HD,http://khano.nng.cloudns.us/live/m3u8/id/2b8fc230e8f847a.m3u8
+Nusantara TV,http://khano.nng.cloudns.us/live/m3u8/id/378a642ff00fed8.m3u8
+TVRI Sport,https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+BTV,http://cdn.nng.cloudns.us/live/m3u8/id/270f72deeb5843h.m3u8
+BeritaSatu,http://cdn.nng.cloudns.us/live/m3u8/id/270f72deeb5843g.m3u8
+Magna Channel,http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226cce.m3u8
+CNBC Indonesia,http://khano.nng.cloudns.us/live/m3u8/id/ef7e8c7bc86110e.m3u8
+RTV,https://d84q7nw4qf3j3.cloudfront.net/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/index.mpd|Referer=https://www.visionplus.id
+Mentari TV,https://d84q7nw4qf3j3.cloudfront.net/out/v1/703a71abac3844748b1e68166242d4f3/index.mpd|Referer=https://www.visionplus.id
+Jawa Pos TV,http://khano.nng.cloudns.us/live/m3u8/id/459caa984301138.m3u8
+Garuda TV,http://khano.nng.cloudns.us/live/m3u8/id/b825800cf4d3aaa.m3u8
+iNews,https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
+GTV,https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
+VTV,https://gist.githubusercontent.com/warningfm/960699fadc282ca5a3c8db270f086a11/raw/cc6c795550360033c3dfec81926d30e79ec4d6e4/7e5676155536bd5.m3u8
+MDTV,http://khano.nng.cloudns.us/live/m3u8/id/6cdb3402d11f58d.m3u8
+Kompas TV,http://khano.nng.cloudns.us/live/m3u8/id/ae5f9d6bcd610b6.m3u8
+iNews HD,https://d2tjypxxy769fn.cloudfront.net/out/v1/7b0404cd6a8a4a908123f10774854e46/index.mpd|Referer=https://www.visionplus.id
+ANTV,https://beetv.my.id/xstreamx/vd.m3u8?ch=antv
+tvOne HD,http://khano.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8
+Metro TV HD,http://khano.nng.cloudns.us/live/m3u8/id/6183ec225226ccc.m3u8
+Trans 7,http://khano.nng.cloudns.us/live/m3u8/id/cdd283c9d3d43b5.m3u8
+Indosiar HD,http://khano.nng.cloudns.us/live/m3u8/id/575eeb9f08dc8db.m3u8
+Metro TV,http://khano.nng.cloudns.us/live/m3u8/id/6183ec225226cca.m3u8
+Trans TV,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd|Referer=https://www.visionplus.id
+SIN PO TV,https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
+
+Local,#genre#
+TVKU,http://khano.nng.cloudns.us/live/m3u8/id/29afb26faff1ccd.m3u8
+Bandung TV,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/f16b53f0d5ed459da208c459049c9bb0/index.mpd|Referer=https://www.visionplus.id
+JTV,http://khano.nng.cloudns.us/live/m3u8/id/226fe77699e03c6.m3u8
+Surabaya TV 🇮🇩,http://khano.nng.cloudns.us/live/m3u8/id/86555c60e79d212.m3u8
+Inspira TV,http://cdn.nng.cloudns.us/live/m3u8/id/0c913970f4e013e.m3u8
+Elshinta TV,http://khano.nng.cloudns.us/live/m3u8/id/383fb71f4a76ab2.m3u8
+duta TV,http://khano.nng.cloudns.us/live/m3u8/id/3254f236ad3e872.m3u8
+TVRI Jawa Timur,http://khano.nng.cloudns.us/live/m3u8/id/3f58825fe229a8g.m3u8
+Bali TV,https://d2tjypxxy769fn.cloudfront.net/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd|Referer=https://www.visionplus.id
+Sakti TV,http://khano.nng.cloudns.us/live/m3u8/id/3202e9487d9cd5c.m3u8
+JAKTV,http://khano.nng.cloudns.us/live/m3u8/id/a6e7e966ea54cd3.m3u8
+Channel Jowo,http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8
+DAAI TV,http://khano.nng.cloudns.us/live/m3u8/id/0525ed2747e3162.m3u8
+Antara TV,https://cdn10jtedge.indihometv.com/atm/DASH/antara/manifest.mpd
+
+Kids,#genre#
+KidsTV,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd|Referer=https://www.visionplus.id
+CBeebies,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd|Referer=https://www.visionplus.id
+Nickelodeon,https://d2tjypxxy769fn.cloudfront.net/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd|Referer=https://www.visionplus.id
+Cartoon Network,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cn.smil/manifest.mpd
+Horee,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+Nick Jr.,https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd|Referer=https://www.visionplus.id
+Moonbug,https://d84q7nw4qf3j3.cloudfront.net/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd|Referer=https://www.visionplus.id
+Zoo Moo,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8554b3cb938e44038093df2d65080932/index.mpd|Referer=https://www.visionplus.id
+Nick Jr,https://d84q7nw4qf3j3.cloudfront.net/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd|Referer=https://www.visionplus.id
+Dreamworks HD,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
+My Kidz HD,http://khano.nng.cloudns.us/live/m3u8/Kids/d906ad24c354b91.m3u8
+Cartoonito,https://cdn4.skygo.mn/live/disk1/Boomerang/HLSv3-FTA/Boomerang.m3u8
+ZooMoo,https://zoomoo-samsungau.amagi.tv/playlist.m3u8
+MyKidz,https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
+
+Entertainment,#genre#
+Aniplus,https://warningfm.github.io/v3/live/str/op/7335edf66aba710.m3u8
+Lifetime HD,https://d84q7nw4qf3j3.cloudfront.net/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd|Referer=https://www.visionplus.id
+CCTV-4,http://khano.nng.cloudns.us/live/m3u8/int/b0e5bb72ae995c6.m3u8
+Hanacaraka TV,https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd|Referer=https://www.visionplus.id
+Animax HD,https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd|Referer=https://www.visionplus.id
+Celebrities TV,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd|Referer=https://www.visionplus.id
+Food Travel,https://d84q7nw4qf3j3.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd|Referer=https://www.visionplus.id
+Entertainment,https://d2tjypxxy769fn.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/index.mpd|Referer=https://www.visionplus.id
+Vision Prime,https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd|Referer=https://www.visionplus.id
+Oxygen TV,https://gist.githubusercontent.com/warningfm/f951716f1dfd96d4480dbdad6a000eeb/raw/7df80d7bfc51ecd8fcdb0143731afde18c3af839/oxygen.m3u8
+Indonesiana TV,https://gist.githubusercontent.com/warningfm/f951716f1dfd96d4480dbdad6a000eeb/raw/65169ac6d2221de0cf3346bac07e65c6e67b3fc9/indonesiana.m3u8
+Da Vinci Learning,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+The Indonesia Channel,https://restreamer.indonusa.id:8443/d5f4ad43-1b5a-4b0f-8bef-5b37224ed221.m3u8
+Citra Drama,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+Citra Entertainment,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+TLC Asia,https://s129135.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
+Dunia Lain,https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c6856ea34e35016ef8e9fdf951c1/manifest.mpd
+Maxstream,https://cdn10jtedge.indihometv.com/atm/DASH/useeprime/manifest.mpd
+
+Lifestyle,#genre#
+DENS Food Channel,http://cdn.nng.cloudns.us/live/m3u8/id/dfc160946781414.m3u8
+BBC Lifestyle HD,https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
+DensLifeandStyle,http://op-flashcon-digdayahd-1.dens.tv/h/h222/index.m3u8?app_type=web&userid=lite&chname=denslife-style
+INFAST,https://insighttv-samsung-us.amagi.tv/playlist.m3u8
+FashionTV Asia,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd
+AFN,http://khano.nng.cloudns.us/live/m3u8/int/17a9069cb71209c.m3u8
+HGTV,https://i.mjh.nz/.r/sky-hgtv.m3u8
+Travelxp HD,https://118e957020294ec4b4750823156a73f7.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/LG-au_TravelXP/playlist.m3u8
+BBC Lifestyle,https://s7770.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
+Food Network,http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/VCQ4ADX96VH4G8PY7URBWRQU/2419/index.m3u8
+
+Ukhuwah Islamiyah,#genre#
+Bahrain Quran,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/77db1a648b6f5527215b4566b3e2ff857668f7a4/df36e66d66f4156.m3u8
+Sharjah Quran HD,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/c11f68b3543e0174f14e4de43275e9a0b09a521e/df36e66d66f4155.m3u8
+DMI TV,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/98c2047e0b19dc0e9f979d37a4252f900ff2f9cd/0c9fd875599b836.m3u8
+MQTV,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/bee477ab862965d0c4c8217e84d0dcb3919353f5/55b1da7f755ebf7.m3u8
+TVMU,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/091820896e8220e1fdd804f6789103d17fbed522/MQGHZhlYFicsYHQ.m3u8
+Saudi Sunna HD,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/17f9fc32339dd710eedcc27aa582553c49e6f67c/18d7c304801584a.m3u8
+Muslim TV,https://d84q7nw4qf3j3.cloudfront.net/out/v1/a8f14e34c687494fb1454b88742db085/index.mpd|Referer=https://www.visionplus.id
+Makkah TV,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/e642aba7d7d6b9b274ee61f1613bc831ad311db1/3058a2456b128c1.m3u8
+AlQuran Kareem,https://d84q7nw4qf3j3.cloudfront.net/out/v1/099aba2d60b44679915cd56f303b975d/index.mpd
+Rodja TV,https://rodjatv.com/rodjatv/live.m3u8
+TV9 Nusantara,https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/1f11de94ecabde9aa05fb824c16073fa4a49a336/ca07a749e91966b.m3u8
+MUI TV,http://cdn.nng.cloudns.us/live/m3u8/id/71b5c8483161297.m3u8
+Sharjah Quran TV,https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8
+AswajaTV,https://warningfm.github.io/dailymotion/AswajaTV.m3u8
+
+Sports,#genre#
+Astro Premier League 3 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5108/default_primary.mpd
+Astro Premier League 5 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5113/default_primary.mpd
+Astro Premier League 4 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5111/default_primary.mpd
+Astro Arena Bola 4 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5102/default_primary.mpd
+Astro Arena Bola 3 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5101/default_primary.mpd
+Outside,https://gist.githubusercontent.com/warningfm/f951716f1dfd96d4480dbdad6a000eeb/raw/c04d61b0a6119b0f2efcc31b3308c8cc82d2025a/Outside.m3u8
+Sportstars,https://d2tjypxxy769fn.cloudfront.net/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd|Referer=https://www.visionplus.id
+W-Sport,https://tglmp02.akamaized.net/out/v1/1063ebb215c14312ba9d4e415ac706d2/manifest.mpd
+Sportstars 2,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd|Referer=https://www.visionplus.id
+Astro Stadium,https://linearjitp-playback.astro.com.my/dash-wv/linear/5057/default_primary.mpd
+Astro Premier League 807 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5118/default_primary.mpd
+Astro Badminton,https://linearjitp-playback.astro.com.my/dash-wv/linear/5170/default_primary.mpd
+Astro Football,https://linearjitp-playback.astro.com.my/dash-wv/linear/2506/default_primary.mpd
+Motorvision+,http://op-flashcon-digdayahd-1.dens.tv/h/h09/index.m3u8?app_type=web&userid=lite&chname=Motorvision+
+TSN 3,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
+Astro Sports UHD,https://linearjitp-playback.astro.com.my/dash-wv/linear/1600/default_primary.mpd
+Astro Arena,https://linearjitp-playback.astro.com.my/dash-wv/linear/2604/default_primary.mpd
+Fight Sports HD,https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd|Referer=https://www.visionplus.id
+SPOTV,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd|Referer=https://www.visionplus.id
+HBO Boxing,https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/clients/dash/enc/cmtyd9kpfe/out/v1/813bba04214e4f4dab57f0129365635a/cenc.mpd
+beIN Sports 3,https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd|Referer=https://www.visionplus.id
+Sportstars 4 HD,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd|referrer=https://visionplus.id
+Red Bull TV,https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+beIN Sports,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
+beIN SPORTS 5 (Malaysia Feed) (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5086/default_primary.mpd
+beIN Sports 2,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+MYSPORTS,https://cuwf8jayq1.tenbytecdn.com/live/mysport/playlist.m3u8
+SPOTV2,https://live-channel2-cdn.visionplus.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd|Referer=https://www.visionplus.id
+Astro Badminton 2 (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5172/default_primary.mpd
+beIN SPORTS 4 (Malaysia Feed) (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5085/default_primary.mpd
+Soccer Channel,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd|Referer=https://www.visionplus.id
+beIN SPORTS 3 (Indonesia Feed),https://d6m3sfa7e58z5.cloudfront.net/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+Fight Sports,https://d2tjypxxy769fn.cloudfront.net/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd|Referer=https://www.visionplus.id
+beIN SPORTS 3 (Malaysia Feed),https://linearjitp-playback.astro.com.my/dash-wv/linear/2705/default_primary.mpd
+Fox Sports Mexico Premium,https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd
+beIN SPORTS 1 (Australia Feed),https://otte.live.fly.ww.aiv-cdn.net/syd-nitro/live/clients/dash/enc/ghwcl6hv68/out/v1/83536910d8034e9b9895a20fbe1c1687/cenc.mpd
+TNT Sports 2,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+Premier Sports 2 UK/IE,https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+Sports TV,https://gist.githubusercontent.com/warningfm/fb30c7f87f9a7730154c9e55a1946478/raw/aea04335f87021c1fcfde933f08f3f78400ca37b/sportstv_720.m3u8
+SPOTV 2,https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
+Sportstars 3,https://visionplus.fazznet.my.id/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd|Referer=https://www.visionplus.id
+TSN 2,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
+beIN SPORTS 2 (Indonesia Feed 1),https://d6m3sfa7e58z5.cloudfront.net/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+Tennis Channel,https://tennischannel-int-samsunguk.amagi.tv/playlist.m3u8
+TSN 1,https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+TNT Sports 1,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+Premier Sports HD,http://136.239.173.10:6610/001/2/ch00000090990000001135/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoP1uzasPUQtxzHrrWIYilSytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001282&contentid=ch00000000000000001282&videoid=ch00000090990000001135&recommendtype=0&userid=1603895214902&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=ZGWMVRUB2AQXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+Astro Sports Plus,https://linearjitp-playback.astro.com.my/dash-wv/linear/5171/default_primary.mpd
+Astro Tennis,https://linearjitp-playback.astro.com.my/dash-wv/linear/5210/default_primary.mpd
+TRACE Sport Stars,https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+WeDoTV Sports,https://amg00735-amg00735c45-astrosooka-singapore-7035.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedosportsasia-astrosookasingapore/playlist.m3u8
+RTM Sukan+ (MYTV MM2),https://0pnspbp7iq.tenbytecdn.com/live/sukanrtm/playlist.m3u8
+Cricbuzz Plus (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5117/default_primary.mpd
+beIN SPORTS 2 HD,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+TSN 4,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
+TNT Sports 4,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+TSN 5,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd
+Women Sport,https://linearjitp-playback.astro.com.my/dash-wv/linear/5060/default_primary.mpd
+Cricbuzz,https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_primary.mpd
+Astro Golf (Main),https://linearjitp-playback.astro.com.my/dash-wv/linear/1003/default_primary.mpd
+Astro Sports Plus/Tennis 2 (L/E) (B),https://linearjitp-playback.astro.com.my/dash-wv/linear/5076/default_primary.mpd
+FOX Deportes,https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/worucjnctz/out/v1/20ac5ecdc9b848dc92e7f1188bdf6ff6/cenc.mpd
+beIN SPORTS Xtra,https://bein-xtra-xumo.amagi.tv/playlist.m3u8
+Astro Sports Plus/Tennis 2 (L/E) (A),https://linearjitp-playback.astro.com.my/dash-wv/linear/5610/default_primary.mpd
+Fox Sports 4K (L/E),https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xperu6ixu9/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd
+Astro Golf+ (L/E),https://linearjitp-playback.astro.com.my/dash-wv/linear/5140/default_primary.mpd
+Premier Sports Rugby,https://linearjitp-playback.astro.com.my/dash-wv/linear/2601/default_primary.mpd
+beIN SPORTS 1 (Indonesia Feed 1),https://d6m3sfa7e58z5.cloudfront.net/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
+TNT Sports 3,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+Bein Sports xtra esp,https://bein-esp-xumo.amagi.tv/playlist.m3u8
+CBS Sports GOLAZO! Network,https://otte.live.fly.ww.aiv-cdn.net/PDX/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+MONO29 Sports Thailand,https://udn-streamer1.cdn.3bbtv.com:8443/3bb/live/29/29.mpd
+beIN SPORTS 1 (Indonesia Feed 3),http://tv.cloudcdn.me/live.ts?channelId=93748&uid=10223&deviceMac=00:1A:79:07:07:43
+TVRI Sport (A),https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+Eurosport 4K,http://88.212.15.50/live/esp_4k_atk/playlist.m3u8
+Eurosport,https://cri-streamer3.cdn.3bbtv.com:8443/3bb/live/403/403.mpd
+TVRI Sport (B),http://123.253.54.61:8000/play/a027
+Horse & Country,https://amg00810-amg00810c1-astrosooka-singapore-6959.playouts.now.amagi.tv/playlist/amg00810-hncfast-hncswedenhd-astrosookasingapore/playlist.m3u8
+IRIB9 Iran Vuarzesh (Unstable),https://live-aburayhan1105.telewebion.ir/ek/varzesh/live/playlist.m3u8?isp=NA&city=NA
+Astro Premier League 2 (C),http://tv.cloudcdn.me/live.ts?channelId=93740&uid=10223&deviceMac=00:1A:79:07:07:43
+Paramount+ UFC,https://dbrb49pjoymg4.cloudfront.net/10001/99951134/hls/playlist.m3u8?ads.xumo_channelId=99951134
+Sky Sports Football,http://2756d46c.akciatv.ru/iptv/7FRNF6CY9A9TG3/9289/index.m3u8
+Astro Grandstand (B),https://mvts.live/zes-grandstand
+Astro Grandstand (A),http://tv.cloudcdn.me/live.ts?channelId=93741&uid=10223&deviceMac=00:1A:79:07:07:43
+FIFA+,https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
+RTM Sukan+ (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/5212/default_primary.mpd
+Astro Arena Bola 2 (A),https://mvts.live/zes-arenabola2
+Astro Arena Bola (A),https://mvts.live/zes-arenabola
+Astro Premier League 2 (A),https://bozzku.xyz/victus/4997/AstPremierLeague2.mpd
+Astro Premier League (A),https://bozzku.xyz/victus/4996/AstPremierLeague1.mpd
+0,500,281_.jpg" group-title="Sports",Plex TV Swerve Combat,https://dbrb49pjoymg4.cloudfront.net/10001/99991696/hls/playlist.m3u8?ads.xumo_channelId=99991696
+beIN SPORTS 2 (Malaysia Feed),https://mvts.live/zes-bein2
+
+Knowledge,#genre#
+CGTN Documentary,http://cdn.nng.cloudns.us/live/m3u8/knl/0d3dbf8c78f1fb7.m3u8
+History,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/936ed6f98448469b924a0ce456586651/index.mpd
+Crime Investigation,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/384f26c1c3b74ce09fa60bed24719b79/index.mpd|Referer=https://www.visionplus.id
+BBC Earth Asia,https://d84q7nw4qf3j3.cloudfront.net/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd|Referer=https://www.visionplus.id
+Love Nature Asia,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd|Referer=https://www.visionplus.id
+Discovery Channel,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dsc.smil/manifest.mpd
+Global Trekker,https://d2tjypxxy769fn.cloudfront.net/out/v1/99b07f39f4964b7cb9bfc092b51af734/index.mpd|Referer=https://www.visionplus.id
+DMAX,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dmax.smil/manifest.mpd
+Discovery Asia,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/dscasia.smil/manifest.mpd
+INWILD,https://amg00861-terninternation-inwild-samsunguk-w5wic.amagi.tv/playlist/amg00861-terninternation-inwild-samsunguk/playlist.m3u8
+WildEarth,https://khano.nng.cloudns.us/live/m3u8/knl/52a5a986362e674.m3u8
+Wild Planet,https://khano.nng.cloudns.us/live/m3u8/knl/d480329bd1d2d7f.m3u8
+Nature Time,https://khano.nng.cloudns.us/live/m3u8/knl/adb3ea162365d59.m3u8
+Curiosity,https://a83aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/pbfcrvvryb/out/v1/40523cc41143492b9995faf2d6f97ab6/cenc.mpd
+Love Nature 4k,https://amg00090-blueantllc-lovenature-lgus-t7q3q.amagi.tv/playlist/amg00090-blueantllc-lovenature-lgus/playlist.m3u8
+Animal Planet,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ap.smil/manifest.mpd
+Smithsonian Channel,https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
+Outdoor Channel,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8
+Wonder,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-wondernz-samsungnz/playlist.m3u8
+
+Music,#genre#
+Music Information Channel,http://cdn.nng.cloudns.us/live/m3u8/id/0c913970f4e0137.m3u8
+Music TV,https://d84q7nw4qf3j3.cloudfront.net/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd|Referer=https://www.visionplus.id
+B4U Music,https://amg00877-b4unew-amg00877c3-xiaomi-in-5474.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00877-b4unetworkeuropefast-b4umusic-xiaomiin/playlist.m3u8
+Zoom TV,https://dai.google.com/ssai/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+Trace Urban,https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+9XM,https://da86m1sqpm3o0.cloudfront.net/28072023/smil:9xmusic4.smil/playlist.m3u8
+Vevo Pop,https://amg00056-amg00056c10-rakuten-es-3242.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopes-rakutenes/playlist.m3u8
+Musik Indonesia,https://cdnjkt913.transvision.co.id:1000/live/master/2/4028c685730a4243017317dee5df1572/manifest.mpd
+Desi Channel,http://146.59.253.52:8080/hindihitshd/index.m3u8
+Vevo R&B,https://jmp2.uk/rok-6be3083b8ec2508495684e5087f8f86a.m3u8
+MIC Channel,http://cdn.nng.cloudns.us/live/m3u8/id/0c913970f4e0137.m3u8
+YRF Music,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+Vevo '90s,https://jmp2.uk/rok-4c0772ef75e1565183843b37e91591f8.m3u8
+Vevo '70s,https://jmp2.uk/rok-e5dcad2b1c055d4d86a9f7bba9438da7.m3u8
+Vevo '80s,https://jmp2.uk/rok-fd8d765f98605129914b581147e7e8b2.m3u8
+Show Champion,https://ads.its-newid.net/api/manifest.m3u8?tp=lg_channels&channel_name=showchampion&channel_id=newid_037&mpf=7bf6bba6-39af1962-0b8a006e&apikey=48230e6b-1cea0097-15975f93-39af1962&auth=623487d6-3e406f00-4f9a3003-4930f5ac&ads.live=[CONTENT_LIVE]&ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdpr_consent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.us_privacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]
+Vevo Hip-Hop,https://jmp2.uk/rok-8dc44c8fdea45f039c68f75bda233850.m3u8
+Vevo 2K,https://jmp2.uk/rok-94759dbd58a65682bcc573932f725f46.m3u8
+Vevo Country,https://jmp2.uk/rok-1db9c603bb4e5d87b015f9963da1093e.m3u8
+IbizaTV,https://wahyu1ptv.pages.dev/Ibiza.m3u8
+PMC Royalé,https://pmcrohls.wns.live/hls/stream.m3u8
+XITE Hits,https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
+Prambors Live,https://stream.prambors-poc.ms-biznetgio.net/hls/live.m3u8
+MTV Live USA,http://23.237.104.106:8080/USA_MTV_LIVE/mpegts
+That's 90s00s,https://jmp2.uk/plu-660c209e19ca71000846cf38.m3u8
+That's Rock,https://jmp2.uk/plu-6568a78d635c3c0008765f41.m3u8
+YRF Music (Distro),https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+Vevo Rock,https://jmp2.uk/stvp-USBD3000145P
+That's 80s,https://jmp2.uk/plu-6490254fd2c47c00083a5743.m3u8
+
+Movies,#genre#
+Rock Action,https://d84q7nw4qf3j3.cloudfront.net/out/v1/010bb28c19b64975b318d3b00f58b18b/index.mpd|Referer=https://www.visionplus.id
+CCM,https://d84q7nw4qf3j3.cloudfront.net/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd|Referer=https://www.visionplus.id
+Celestial Movies (V+),https://d2xz2v5wuvgur6.cloudfront.net/out/v1/fd25e662b7154c60a94f7c061573ba2d/index.mpd|Referer=https://www.visionplus.id
+Hits Movies,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd|Referer=https://www.visionplus.id
+Hits HD,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd|Referer=https://www.visionplus.id
+My Cinema Europe,http://cdn.nng.cloudns.us/live/m3u8/Mov/42f8fc7226dc12a1.m3u8
+Galaxy,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd|Referer=https://www.visionplus.id
+Studio Universal,https://d84q7nw4qf3j3.cloudfront.net/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd|Referer=https://www.visionplus.id
+ROCK Entertainment,https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd|Referer=https://www.visionplus.id
+AXN Asia,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd|Referer=https://www.visionplus.id
+HITS Now,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/73b9fdd0cd0e4570b482c92fa43ecda9/index.mpd
+CinemaWorld HD,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
+KIX,https://d2tjypxxy769fn.cloudfront.net/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd|Referer=https://www.visionplus.id
+tvN Movies,https://d2tjypxxy769fn.cloudfront.net/out/v1/096d5cf064294e7ea3a7f59ee2899669/index.mpd|Referer=https://www.visionplus.id
+Thrill,https://d2tjypxxy769fn.cloudfront.net/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd|Referer=https://www.visionplus.id
+Originals HD,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd|Referer=https://www.visionplus.id
+Galaxy Premium,https://live-channel4-cdn.visionplus.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd|Referer=https://www.visionplus.id
+CinemaWorld,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
+IMC,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd|Referer=https://www.visionplus.id
+Warner TV,https://cdn4.skygo.mn/live/disk1/Warner/HLSv3-FTA/Warner.m3u8
+Bioskop Indonesia,https://gist.githubusercontent.com/warningfm/a88760c3b6d8eee4db23461bf2b4dbe7/raw/1008d392fe976908b19b260c4e61a54e88d95c91/0c9fd875599b837.m3u8
+Action Hollywood Movies,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+Lotusmacau Prd,http://136.239.159.20:6610/001/2/ch00000090990000001196/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrUraXHxRLZkchi69sJ%2B10xytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001400&contentid=ch00000000000000001400&videoid=ch00000090990000001196&recommendtype=0&userid=1065444060343&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=9JQRNS5OZKWXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+Insidious: Out Of The Further (2026),https://v4.freeterabox.com/video/netdisk-videotran-tky/36178908f85010f2a295bcd0d795da74_1138_1_ts/44eb941c0ef9627343eaba0df23108a0?ts_size=8096408&region=tky&ccn=MY&from_type=3&fsid=1028329665624463&iv=0&ouk=4401816682305&sta_cs=17&to=any&vuk=81366990194712&app_id=250528&dp-logid=47324450600131414&fn=Insidious_Chapter_2_%282013%29_Hindi_Dubbed_720P_HDMOVIE5.mkv.mp4&hit_sl=0&isplayer=1&logid=47324450600131414&r=79849703&raw_appid=0&ref=0&size=991015382&sta_dt=video&sta_dx=945&start_ply=0&time=1788876734&tot=ctoW9&ts_sl=0&uo=any&uva=2551350209&csl=0&dtime=10&etag=44eb941c0ef9627343eaba0df23108a0&fid=e4d420a7971c7a4f5c4494e8b86657e7-81366990194712&len=250792&range=1788068-2038859&resv4=&sign=BOUTHNFRQ-F3530edecde9cd71b79378b290804a96-Otf5XseryPJpBGRIgNWEdpwsEiY%253D&xcode=2e0f08d2c7a943a85e5246990c50639aeee9e42227791f70288571a1df109e992d22c1df1daa4bf5d3bdc63f17241d1c316128a2cdfcce4d&xv=6&ogr=0&rrg=XVVi&need_suf=&pmk=140044eb941c0ef9627343eaba0df23108a034a21bb20000007b8a98&by=my-streaming
+Moviesphere by Lionsgate,https://amg00353-lionsgatefilmsi-moviesphereaus-samsungau-7qzhf.amagi.tv/playlist/amg00353-lionsgatefilmsi-moviesphereaus-samsungau/playlist.m3u8
+Miramax Movies Channel,https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
+MovieSphere,https://dbrb49pjoymg4.cloudfront.net/10001/99951251/hls/playlist.m3u8?ads.xumo_channelId=99951251&ads._fw_ifa_type=[IFA_TYPE]&ads._fw_did=[IFA]&ads.amznappId=[AMZN_APP_ID]&ads.lat=[LAT]&ads.lon=[LON]&ads.os=[OS]&ads.osv=[OS_VERSION]&ads.asnw=&ads.caid=LionsgateMovieSphere&ads.csid=xumo_[PLATFORM]_LionsgateMovieSphere_ssai&ads._fw_is_lat=[IS_LAT]&ads._fw_us_privacy=[CCPA_Value]&ads._fw_coppa=0&ads.genre=Movie,Movies,FF,Entertainment,GV,Drama,GD&ads._fw_content_category=[IAB_content_category]&ads._fw_content_language=[content_language]&ads._fw_content_genre=Movie,Movies,FF,Entertainment,GV,Drama,GD&ads._fw_content_rating=[content_rating]&ads.xumo_contentId=3955&ads.xumo_contentName=LionsgateMovieSphere&ads.xumo_providerId=3955&ads.xumo_providerName=LionsgateMovieSphere&ads._fw_deviceMake=[device_make]&ads._fw_device_model=[device_model]&ads.channelId=99951251&ads.xumo_platform=[PLATFORM]&ads.site_id=[publica_site_id]&ads.appName=xumo&ads.appVersion=[APP_VERSION]&ads._fw_app_bundle=[app_bundle]&ads._fw_app_store_url=[app_store_url]
+Universal Movies,https://d4whmvwm0rdvi.cloudfront.net/10007/99991621/hls/master.m3u8?ads.xumo_channelId=99991621&ads.asnw=169843&ads.afid=158702674&ads.sfid=16926435&ads.csid=xumo_web_rottentomatoesrttv_ssai_cro&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_coppa=0&ads._fw_did=8212b958-3140-4a99-87a9-1eda1075c8b0&ads._fw_vcid2=512116:8212b958-3140-4a99-87a9-1eda1075c8b0&ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_deviceMake=GitHubAction&ads._fw_device_model=PythonScript&ads._fw_deviceType=3-Connected_TV&ads.appVersion=1.0.0&ads.appName=XumoPlay&ads.xumo_contentId=2659&ads.xumo_contentName=RottenTomatoesRTTV&ads.xumo_providerId=2659&ads.xumo_providerName=RottenTomatoesRTTV&ads.channelId=99991621&ads._fw_ifa_type=
+HerSphere by Lionsgate,https://5098a8b860504a3690fd2e7c0a18d68f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-817-FR-SONYONEHITSACTION-LG_FR/playlist.m3u8
+Warner TV HD,https://cdn10jtedge.indihometv.com/atm/DASH/warner/manifest.mpd
+
+HBO GO,#genre#
+HBO HD,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/hbo.smil/manifest.mpd
+Cinemax HD,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd
+HBO Family HD,https://cdn10jtedge.indihometv.com/atm/DASH/hbofamily/manifest.mpd
+
+Airtel,#genre#
+Movies Now,https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
+MN+,https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
+Romedy Now,https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
+MNX,https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
+
+News,#genre#
+Bloomberg,http://cdn.nng.cloudns.us/live/m3u8/ns/29fe33a8dc20fa3.m3u8
+Al Jazeera English,http://cdn.nng.cloudns.us/live/m3u8/ns/f5f5c18cf037919.m3u8
+BBC News,https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/1f11de94ecabde9aa05fb824c16073fa4a49a336/BBCNews.m3u8
+WION,http://khano.nng.cloudns.us/live/m3u8/ns/0a8c23a12b66e1b.m3u8
+Al Arabiya,http://cdn.nng.cloudns.us/live/m3u8/ar/b8b58e25df2b3ce.m3u8
+CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+AlJazeera Arabic,http://cdn.nng.cloudns.us/live/m3u8/ar/f5f5c18cf037918b.m3u8
+DW (English),https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+TRT World,http://khano.nng.cloudns.us/live/m3u8/ns/27491db6bea155a.m3u8
+France24,http://khano.nng.cloudns.us/live/m3u8/ns/dcba938c62f7539.m3u8
+Astro Awani,https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
+NHK World Japan,http://khano.nng.cloudns.us/live/m3u8/ns/29fe33a8dc20fa3.m3u8
+ABC Australia,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd
+CNBC Asia,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/e8d3f81aae4b46fbacf545140b86f2c4/index.mpd|Referer=https://www.visionplus.id
+Euronews HD,https://cdn-euronews.akamaized.net/live/eds/euronews-en/25002/index.m3u8
+NHK World Premium,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd
+IDX,https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
+Skynews Arabiya,https://stream.skynewsarabia.com/hls/sna.m3u8
+CNN,https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/cnn.smil/manifest.mpd
+Sindo News TV,https://cdn10jtedge.indihometv.com/atm/DASH/mncnews/manifest.mpd
+
+Fashion,#genre#
+FashionTV Czech&Slovak,https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+Kaloopy,https://gist.githubusercontent.com/warningfm/99465dc1aa6d18e87069f7d960a724b7/raw/6f3a7724bc6468fb8c02029208a2ae3b886f103e/2f760b7cf8286be.m3u8
+Global Fashion Channel,https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
+World Fashion Channel,http://cdn.nng.cloudns.us/live/m3u8/fs/stream-eng.m3u8
+FashionTV Original,https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8
+FashionTV Asia HD,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd
+Fashion TV Original,https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8
+FashionTV Asia,http://136.158.97.2:6610/001/2/ch00000090990000001102/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Box8fi0tu1Fy8zHjKfT%2BDe7ytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001236&contentid=ch00000000000000001236&videoid=ch00000090990000001102&recommendtype=0&userid=1182293234058&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=UV7BK6N91UNXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+Fashion One,https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8
+MiamiTV Fashion,https://c3555fbfd6f24b7984b6f0e24540353e.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/VivaLive-Fashion/master.m3u8
+
+Jenny Live,#genre#
+Miami TV Jenny Live,https://bdc8100df748400cabc7e133824c8ceb.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast-jennylive/playlist.m3u8
+
+🇧🇳 Brunai,#genre#
+RTB Sukmaindera,https://d1211whpimeups.cloudfront.net/smil:rtb1/playlist.m3u8
+RTB Aneka,https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8
+
+🇮🇳 Hindi,#genre#
+Z Bioskop,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
+B4U Movies,https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8
+Colors HD,https://catchup.yuppcdn.net/amazonv2/36/preview/colorsbanglahd/master/chunklist.m3u8
+Sony MAX,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+
+🇰🇷 Korengan,#genre#
+Arirang TV HD,http://khano.nng.cloudns.us/live/m3u8/int/892fc80890b4b65.m3u8
+tvN,https://d84q7nw4qf3j3.cloudfront.net/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
+ONE HD,https://d84q7nw4qf3j3.cloudfront.net/out/v1/9ec31bcce34848d69d4771270ff23ab9/index.mpd
+KBS World HD,https://freem3u.xyz/api/live/play.m3u8?vid=213
+Kplus,https://cdn10jtedge.indihometv.com/atm/DASH/kplus/manifest.mpd
+
+🇲🇾 Malaysia,#genre#
+Bernama,https://gist.githubusercontent.com/warningfm/fb30c7f87f9a7730154c9e55a1946478/raw/ebc720dc20fe0371b1d2b5061a772130fa5e5495/bernama.m3u8
+Al-Hijrah,https://gist.githubusercontent.com/warningfm/fb30c7f87f9a7730154c9e55a1946478/raw/e1fd341274671f75f91fd0810180afcf508c99b2/TvAlhijrah.m3u8
+Berita RTM,http://khano.nng.cloudns.us/live/m3u8/my/BeritaRTM/index.m3u8
+TV2 HD,http://khano.nng.cloudns.us/live/m3u8/my/Tv2/index.m3u8
+Astro Awani,https://d2idp3hzkhjpih.cloudfront.net/out/v1/4b85d9c2bf97413eb0c9fd875599b837/index.m3u8
+TV1 HD,http://khano.nng.cloudns.us/live/m3u8/my/Tv1/index.m3u8
+TV9 HD,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+TV3 HD,https://warningfm.github.io/v3/live/str/op/7335edf66aba711.m3u8
+Drama Hebat,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_1/dash.mpd
+Filem Mantap,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_2/dash.mpd
+Dunia Sinema HD,https://gist.githubusercontent.com/warningfm/fb30c7f87f9a7730154c9e55a1946478/raw/e48533d8067b13e18cdd23b076704a4ad7afd377/live27-720H.m3u8
+TV6,https://mifntechnology.github.io/siaranMy/channels/Tv6/index.m3u8
+TV Okey,https://gist.githubusercontent.com/warningfm/fb30c7f87f9a7730154c9e55a1946478/raw/754986d39448966feb7f20bcd75cb1e222235ed3/TVOkey.m3u8
+
+🇸🇬 Singapore,#genre#
+Vasantham,https://tglmp01.akamaized.net/out/v1/8605c1013e3148aa809c296dd76c3fa5/manifest.mpd
+Suria,https://tglmp02.akamaized.net/out/v1/0fa7dd7d7b6447478f26db79ea7c5779/manifest.mpd
+CNA,https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
+Channel 8,https://tglmp01.akamaized.net/out/v1/6043d36e1ffb4b52a959fb71b4bbcd31/manifest.mpd
+Channel U,https://tglmp04.akamaized.net/out/v1/0ba219dbd030477784e4a8104bd9e827/manifest.mpd
+Channel News Asia HD,https://tglmp03.akamaized.net/out/v1/43856347987b4da3890360b0d18b5dc5/manifest.mpd
+
+🇵🇭 Philippines,#genre#
+ONE PH (CIG),https://qp-pldt-live-grp-10-prod.akamaized.net/out/u/oneph_sd.mpd
+Kapamilya Channel,https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd
+Cinema One Global,https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
+The Filipino Channel HD,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnono/index.mpd
+ANC,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd
+
+Nz,#genre#
+MovieSphere,https://i.mjh.nz/.r/sky-ptms.m3u8
+Warner Bros TV House Hunters,https://i.mjh.nz/.r/sky-fast6.m3u8
+MythBusters,https://i.mjh.nz/.r/sky-ptmb.m3u8
+Warner Bros TV Deadliest Catch,https://i.mjh.nz/.r/sky-fast2.m3u8
+Warner Bros TV True Crime,https://i.mjh.nz/.r/sky-fast4.m3u8
+Warner Bros TV Motorheads,https://i.mjh.nz/.r/sky-fast1.m3u8
+Warner Bros TV Paranormal,https://i.mjh.nz/.r/sky-fast5.m3u8
+HGTV,https://i.mjh.nz/.r/sky-hgtv.m3u8
+Below Deck Vault,https://i.mjh.nz/.r/sky-fast3.m3u8
+CNN Headlines,https://i.mjh.nz/.r/sky-ptcn.m3u8
+
+Adult Lifestyle & Interests,#genre#
+Emily Bloom - amazing girl,http://cdn.nng.cloudns.us/live/m3u8/Mov/cfe184c83cd7ef3.m3u8
+Hot Latina Lorena Pinup Beauty Foot Fetish,https://drive.usercontent.google.com/download?id=1EhZSNjwDeytj_Az1IbWo0eCit1oh6PDF&export=download&authuser=0&confirm=t&uuid=7b0ea13c-5512-433c-ab48-d7f9f364507b&at=ALoNOgkdAg_54wCOuqLihqai8kjS%3A1747204833125
+Chinese model,https://drive.usercontent.google.com/download?id=1tRz4BtoM6el-zPUfChxUObhUrn6JxDtp&export=download&authuser=0&confirm=t&uuid=db5194c0-df93-4c0d-af98-031a03842d96&at=APcmpozpP4ke_mIh5n_hYox8Vq8d:1745919995011
+Milana G, Anna Kais, Showy Beauty,https://drive.usercontent.google.com/download?id=1wfPHJpwueFe9VNMtL7_lzto5ZO6XdQhY&export=download&authuser=0&confirm=t&uuid=2e7099ac-3182-49e2-aad9-11336d38565f&at=ANTm3czNChrb69lWL3QXAvqVNvud%3A1767343471309
+yuri-27h-Tba-Iasian4U,https://drive.google.com/uc?export=download&id=1I_fzmevtijtkT7GxpijNgVJ2h3BV97zx
+DestinationKat Yoga JOI With Bloopers,https://drive.usercontent.google.com/download?id=1GXmNek1SG7cjuiFytE7cyn0N3y5eHEA2&export=download&authuser=0&confirm=t&uuid=1c79a1e4-1410-41fe-8d3a-adfc93199e88&at=ANTm3cwLBZfxhHmB2jHaia19Vzuh%3A1767340696081
+
+📻 Radio,#genre#
+Sonora FM,https://cast1.my-control-panel.com/proxy/radioso1/stream
+Trax FM,https://stream-ssl.arenastreaming.com:8001/trax
+
+Info,#genre#
+Contact me in Telegram: https://t.me/+5zUEaddRGo40NDc1,https://drive.usercontent.google.com/download?id=1ZjYbMvuZkldBkaW0ljvzWLpX0PXLekkc&export=download&authuser=0&confirm=t&uuid=12678fa0-e4d5-4b6c-b66d-e4a727e3953d&at=AFYLz4PVAc_8KRc_s1Giq0xLg3gu:1787320414005
+
+Malaysia,#genre#
+TV Okey (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/5072/default_primary.mpd
+TV Sarawak (TVS),https://linearjitp-playback.astro.com.my/dash-wv/linear/5021/default_primary.mpd
+TV Okey (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/tvokey/playlist.m3u8
+TV Alhijrah (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/1113/default_primary.mpd
+Jom Ngaji,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_6/dash.mpd
+Oh My Ceria!,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_7/dash.mpd
+Berita RTM/RTM World (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/5213/default_primary.mpd
+DidikTV KPM (B),https://linearjitp-playback.astro.com.my/dash-wv/linear/707/default_primary.mpd
+TV2 (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/5027/default_primary.mpd
+TV3 (A),https://linearjitp-playback.astro.com.my/dash-wv/linear/809/default_primary.mpd
+Astro Awani,https://linearjitp-playback.astro.com.my/dash-wv/linear/5025/default_primary.mpd
+TV2 (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/tv2/playlist.m3u8
+TV9 (A),https://linearjitp-playback.astro.com.my/dash-wv/linear/705/default_primary.mpd
+8TV (八度空间) (A),https://linearjitp-playback.astro.com.my/dash-wv/linear/911/default_primary.mpd
+Travel & Taste,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_5/dash.mpd
+TV Alhijrah (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/tvalhijrah/playlist.m3u8
+RTM Aura,https://d1sq2slp9afh7o.cloudfront.net/smil:aura/manifest.mpd
+Berita RTM/RTM World (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/beritartm/playlist.m3u8
+Bernama TV (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/1114/default_primary.mpd
+Bernama TV (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/bernama/playlist.m3u8
+Siara TV,https://cuwf8jayq1.tenbytecdn.com/live/siaratv/playlist.m3u8
+Drama Hebat,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_1/dash.mpd
+Filem Mantap,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_2/dash.mpd
+RTM Junior,https://d1sq2slp9afh7o.cloudfront.net/smil:jr/manifest.mpd
+RTM Apetito,https://d1sq2slp9afh7o.cloudfront.net/smil:apetito/manifest.mpd
+RTM Fitrah,https://d1sq2slp9afh7o.cloudfront.net/smil:fitrah/manifest.mpd
+RTM Lead,https://d1sq2slp9afh7o.cloudfront.net/smil:lead/manifest.mpd
+TV1 (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/live/tv1/playlist.m3u8
+RTM Roll,https://d1sq2slp9afh7o.cloudfront.net/smil:roll/manifest.mpd
+RTM Snap,https://d1sq2slp9afh7o.cloudfront.net/smil:snap/manifest.mpd
+TV1 (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/711/default_primary.mpd
+Asian (TEST TRANSMISSION),https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_8/dash.mpd
+Lawak Sentral,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_3/dash.mpd
+Local (TEST TRANSMISSION),https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_9/dash.mpd
+Lifestyle (TEST TRANSMISSION),https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_10/dash.mpd
+Drama Hotpot,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_4/dash.mpd
+Movies (TEST TRANSMISSION),https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_11/dash.mpd
+TV3 (B),http://tv.cloudcdn.me:80/live.ts?channelId=93776&uid=4621&deviceMac=00:1A:79:4A:02:91
+Awesome TV (Redirect to YouTube),https://www.youtube.com/@AwesomeTVmyPlus/streams
+
+Malaysian Satellite Channels,#genre#
+MBOO-404,https://linearjitp-playback.astro.com.my/dash-wv/linear/2407/default_primary.mpd
+MOIS-106,https://linearjitp-playback.astro.com.my/dash-wv/linear/2505/default_primary.mpd
+MCRA-611 (A),https://mvts.live/zes-ceria
+MIAU-113 (A),https://mvts.live/zes-aura
+MIRN-112 (A),https://mvts.live/zes-rania
+MCTR-108 (A),https://mvts.live/zes-citra
+MPRM-105 (A),https://mvts.live/zes-prima
+
+Singapore,#genre#
+Suria,https://tglmp02.akamaized.net/out/v1/0fa7dd7d7b6447478f26db79ea7c5779/manifest.mpd
+Channel 8,https://tglmp01.akamaized.net/out/v1/41d401729c5d4ce3b15eb7db9147d7bc/manifest.mpd
+Channel U,https://tglmp04.akamaized.net/out/v1/884798cc688345d780dc58e4eb56d726/manifest.mpd
+Vasantham,https://rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/147/assetId/237653/assetType/media/assetFileId/5754108/contextType/PLAYBACK/isAltUrl/False/a.mpd
+Channel 5 (A),http://caonima.898757.xyz/l/6M8_WU-7JbjOeK1AOBhFpO47EeFGoqQl3KYgaJ_ZV7x0aj3vSTqMx84CvnqU-JrH/index.m3u8
+
+Indonesia,#genre#
+tvOne (B),http://202.150.165.66:8088/play/806-TvOne/index.m3u8
+Kompas TV (A),https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
+Metro TV (B),https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
+SCTV (E),http://202.150.165.66:8088/play/a00c/index.m3u8
+Garuda TV (B),http://khano.nng.cloudns.us/live/m3u8/id/b825800cf4d3aaa.m3u8
+MDTV (B),http://202.150.165.66:8088/play/817-MDTV/index.m3u8
+Kompas TV (B),http://202.150.165.66:8088/play/810-KompasTV/index.m3u8
+tvOne (A),https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8
+MDTV (A),https://op-flashcon-digdayahd-1.dens.tv/h/h223/index.m3u8?app_type=web&userid=lite&chname=MDTV
+Moji (A),http://202.150.165.66:8088/play/a004/index.m3u8
+Metro TV (A),https://mgplay.medcom.id/live-edge/smil:metro/playlist.m3u8
+SCTV (G),http://202.150.165.66:8088/play/a003/index.m3u8
+BTV (B),https://op-flashcon-digdayahd-1.dens.tv/h/h313/stream.m3u8?app_type=web&userid=lite&chname=BTV
+RTV (Rajawali Televisi) (B),https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
+iNews (B),https://d84q7nw4qf3j3.cloudfront.net/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd
+GTV Indonesia (C),http://202.150.165.66:8088/play/813-GTV/index.m3u8
+Berita Satu (B),https://op-flashcon-digdayahd-1.dens.tv/h/h314/stream.m3u8?app_type=web&userid=lite&chname=Berita_Satu
+ANTV (A),http://202.150.165.66:8088/play/807-ANTV/index.m3u8
+MNC TV (C),http://202.150.165.66:8088/play/812-MNCTV/index.m3u8
+Indosiar (C),https://d2tjypxxy769fn.cloudfront.net/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
+GTV Indonesia (A),https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+SCTV (A),https://vidio123.mikrofast.web.id/vidio/204/index.mpd
+BTV (A),https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
+Trans 7 (Satellite Feed),http://202.150.165.66:8088/play/801-Trans7/index.m3u8
+Daai TV (B),https://op-flashcon-digdayahd-1.dens.tv/h/h16/index.m3u8
+Moji (B),https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
+Nusantara TV (B),https://op-flashcon-digdayahd-1.dens.tv/h/h37/index.m3u8
+Berita Satu (A),https://lnd0t3b922.tenbytecdn.com/ta-sg1/89c624c5-4b4f-473c-b50d-1a156a1c0174/master.m3u8
+CNBC Indonesia,https://live.cnnindonesia.com/livecnbc/smil:cnbctv/playlist.m3u8
+CNN Indonesia,https://live.cnnindonesia.com/livecnn/smil:cnntv/playlist.m3u8
+Sindonews,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/32aa4a6344fd435bb78826c719c11923/index.mpd
+Moji (C),http://202.150.165.66:8088/play/815-MOJI/index.m3u8
+Trans TV (B),http://202.150.165.66:8088/play/800-TransTV/index.m3u8
+Trans 7,https://live.cnnindonesia.com/trans7/smil:trans7/chunklist.m3u8
+TVRI (Jakarta Feed),https://ott-balancer.tvri.go.id/live/eds/DKI/hls/DKI.m3u8
+MNC TV (A),https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+Nusantara TV (A),https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+RCTI (C),http://202.150.165.66:8088/play/811-RCTI/index.m3u8
+Trans TV (A),https://live.cnnindonesia.com/transtv/smil:transtv/chunklist.m3u8
+TVRI (Jogja Feed),https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
+RCTI (A),https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+IDX Channel (Redirect to YouTube),https://www.youtube.com/@IDXChannel/streams
+TVRI (A),https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+TVRI (C),http://202.150.165.66:8088/play/814-TVRI/index.m3u8
+LokaTV (Redirect to YouTube),https://www.youtube.com/@lokatvnews/streams
+SCTV (F),http://123.253.54.61:8000/play/a00c
+TVRI (B),https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
+Al-Wafa Tarim,https://ammedia.siar.us/ammedia/live/playlist.m3u8
+Sinpo TV (B),https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=19046
+Garuda TV (A),https://hgmtv.com:2020/hls/garudatvlivestreaming/garudatvlivestreaming.m3u8
+Daai TV (A),https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+Indonesiana TV,https://tvstreamcast.com/indonesiana.m3u8
+Indosiar (A),https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=205
+ANTV (B),https://beetv.my.id/jabingan/vd.m3u8?ch=antv
+iNews (A),https://beetv.my.id/jabingan/rcti.m3u8?id=4
+SCTV (D),https://beetv.my.id/jabingan/vd.m3u8?ch=sctv
+GTV Indonesia (B),https://beetv.my.id/jabingan/rcti.m3u8?id=3
+SCTV (C),https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=204
+MNC TV (B),https://beetv.my.id/jabingan/rcti.m3u8?id=2
+RCTI (B),https://beetv.my.id/jabingan/rcti.m3u8?id=1
+Indosiar (B),https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
+JTV,https://63b2dc7196c38.streamlock.net:1937/JTVSURABAYA/_definst_/myStream/playlist.m3u8
+JawaPosTV,https://63b2dc7196c38.streamlock.net:1937/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
+Sinpo TV (A),https://tvratu.my.id/vid/index.mpd?id=19046&type=dash
+RTV (Rajawali Televisi) (A),https://rtvstream.rtv.co.id:4555/hls/rtv.m3u8
+
+World,#genre#
+Al-Jazeera English (MYTV MM2),https://cuwf8jayq1.tenbytecdn.com/abr/aljazeeraenglishhd/playlist.m3u8
+Al-Jazeera Arabic,https://cuwf8jayq1.tenbytecdn.com/abr/aljazeeraarabichd/playlist.m3u8
+DW English (MY Feed),https://linearjitp-playback.astro.com.my/dash-wv/linear/9984/default_primary.mpd
+France24 (MY Feed),https://linearjitp-playback.astro.com.my/dash-wv/linear/9985/default_primary.mpd
+Bloomberg TV,https://linearjitp-playback.astro.com.my/dash-wv/linear/5020/default_primary.mpd
+NHK World (Premium Edition),https://linearjitp-playback.astro.com.my/dash-wv/linear/5018/default_primary.mpd
+Channel News Asia (MY Feed 1),https://linearjitp-playback.astro.com.my/dash-wv/linear/605/default_primary.mpd
+CNBC (Asia/MY Feed),https://linearjitp-playback.astro.com.my/dash-wv/linear/900/default_primary.mpd
+ABC Australia,https://linearjitp-playback.astro.com.my/dash-wv/linear/5075/default_primary.mpd
+DW English (50FPS Feed),https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+NHK World Japan (A),https://cuwf8jayq1.tenbytecdn.com/live/nhkworld/playlist.m3u8
+TaiwanPlus (B),https://cuwf8jayq1.tenbytecdn.com/live/xtaiwanplus/playlist.m3u8
+BBC News,https://linearjitp-playback.astro.com.my/dash-wv/linear/1008/default_primary.mpd
+Channel News Asia (SG Feed),https://tglmp03.akamaized.net/out/v1/f97b5eedb5ec4b4ea770859bd4e9d28e/manifest.mpd
+Al-Jazeera English (ASTRO),https://linearjitp-playback.astro.com.my/dash-wv/linear/2110/default_primary.mpd
+Channel News Asia (MY Feed 2),https://cuwf8jayq1.tenbytecdn.com/live/cna/playlist.m3u8
+Euronews,https://cuwf8jayq1.tenbytecdn.com/live/euronews/playlist.m3u8
+Russia Today (RT) (B),https://cuwf8jayq1.tenbytecdn.com/live/rti/playlist.m3u8
+TV5 Phillipines,http://136.239.158.30:6610/001/2/ch00000090990000001088/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Boh0xOsaoSFLqA0PEh9gVjiytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000090990000001088&contentid=ch00000090990000001088&videoid=ch00000090990000001088&recommendtype=0&userid=1150006064464&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=J62NMXIGLTMXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+CNN,https://linearjitp-playback.astro.com.my/dash-wv/linear/2503/default_primary.mpd
+TVRI World,https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+RTB Sukmaindera,https://d1211whpimeups.cloudfront.net/smil:rtb1/chunklist.m3u8
+CGTN (English),https://linearjitp-playback.astro.com.my/dash-wv/linear/5019/default_primary.mpd
+Russia Today (RT) (A),https://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
+CCTV4 (Chinese),https://linearjitp-playback.astro.com.my/dash-wv/linear/403/default_primary.mpd
+CBS News 24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+TaiwanPlus (A),https://fastly.live.brightcove.com/6385235869112/ap-northeast-1/6282251407001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiaWU4OWZvLmVncmVzcy5pdjNqZDgiLCJhY2NvdW50X2lkIjoiNjI4MjI1MTQwNzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MjgyMjUxNDA3MDAxIl0sImp0aSI6IjYzODUyMzU4NjkxMTIifQ.4c-V1Ks3nBx9nRljtn5-jCNP_nLuWBbk-pw9BFWZfMQ/playlist-hls.m3u8
+Press TV,https://live.presstv.co.uk/hls/presstv.m3u8
+RTP Mundo,https://streaming-live.rtp.pt/liverepeater/rtpi.smil/playlist.m3u8
+Kapamilya Channel,http://136.239.158.18:6610/001/2/ch00000090990000001286/index.m3u8?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2Bqw65FFCygtQMRRIUPF0xuXytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001694&contentid=ch00000000000000001694&videoid=ch00000090990000001286&recommendtype=0&userid=1004802317138&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=CCJLYZ04O9IXXX&NeedJITP=1&JITPMediaType=HLS&JITPDRMType=NO
+TVR Internațional,https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist.m3u8
+ANC (A),http://136.239.158.18:6610/001/2/ch00000090990000001216/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BoK2PIan60vhUUxnwtpVvgcytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000090990000001216&contentid=ch00000090990000001216&videoid=ch00000090990000001216&recommendtype=0&userid=1365005241451&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=4U9VQT70SCCXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+North Korea Central TV,https://live.koryocdn.org/kctv/index.m3u8
+NHK World Japan (B),https://nhk.lls.pbs.org/index.m3u8
+NBT World Thailand,https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8
+GMA News TV,https://abslive.akamaized.net/dash/live/2099522/gnews3/manifest.mpd
+Al-Arabiya (English),https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
+WION,http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
+France24 (France Feed),https://a-cdn.klowdtv.com/live2/france24_720p/chunks.m3u8
+Al-Arabiya (Arabic),https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
+Telemadrid Internacional,https://live.telemadrid.cross-media.es/6389768804112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzY4ODA0MTEyIn0.BFiWvnDeEhA-nK2xb_GTgSA9SW3E72vcdXuGHYkLx2U/playlist-hls.m3u8
+DIGI24 Romania,https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
+Palestine National TV,https://pbc.furrera.ps/palestinehd/index.m3u8
+CNBC (US Feed),https://rtmp2.livenewsof.com/livenewsof.com/qJbteqvER7/9.m3u8
+Palestine Satellite TV,https://pbc.furrera.ps/palestinelivehd/index.m3u8
+Las Estrellas,https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+TRT World,https://tv-trtworld.medya.trt.com.tr/master.m3u8
+
+Movies & Entertainment,#genre#
+HBO Family (A),http://202.150.165.66:8088/play/103-HBOFamily/index.m3u8
+My Cinema Europe,https://op-flashcon-digdayahd-1.dens.tv/h/h18/index.m3u8
+Cinemax (B),http://202.150.165.66:8088/play/104-Cinemax/index.m3u8
+Cinemax (A),https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/max.smil/manifest.mpd
+ROCK Entertainment,https://d2tjypxxy769fn.cloudfront.net/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd
+Thrill,http://202.150.165.66:8088/play/109-Thrill/index.m3u8
+HBO (A),http://136.239.158.10:6610/001/2/ch00000090990000001065/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BosKg8aLji3LHWqHUI%2FwQyJytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001085&contentid=ch00000000000000001085&videoid=ch00000090990000001065&recommendtype=0&userid=1362658369654&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=UVJL5F87UVBXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+MN+,https://times-ott-live.akamaized.net/mnplus_wv_drm/index.mpd
+HBO Signature (A),http://202.150.165.66:8088/play/101-HBOSignature/index.m3u8
+Romedy Now,https://times-ott-live.akamaized.net/romedynow_wv_drm/index.mpd
+CinemaWorld (Vietnam),https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/cinemaworld.smil/manifest.mpd
+CCM (A),https://linearjitp-playback.astro.com.my/dash-wv/linear/100/default_primary.mpd
+Pokémon,https://linearjitp-playback.astro.com.my/dash-wv/linear/5606/default_primary.mpd
+MNX,https://times-ott-live.akamaized.net/mnxhd_wv_drm/index.mpd
+CinemaWorld (Indonesia),http://202.150.165.66:8088/play/105-CinemaWorld/index.m3u8
+HBO Hits (B),http://202.150.165.66:8088/play/102-HBOHits/index.m3u8
+HBO (B),http://202.150.165.66:8088/play/100-HBO/index.m3u8
+Aniplus,https://linearjitp-playback.astro.com.my/dash-wv/linear/5600/default_primary.mpd
+TVB Jade,https://linearjitp-playback.astro.com.my/dash-wv/linear/2600/default_primary.mpd
+Movies Now,https://times-ott-live.akamaized.net/moviesnow_wv_drm/index.mpd
+BLUEANT Free Movies (B),https://cuwf8jayq1.tenbytecdn.com/live/freemovies/playlist.m3u8
+The Indonesia Channel (TIC),https://cuwf8jayq1.tenbytecdn.com/live/theindonesiachannel/playlist.m3u8
+Warner TV (B),https://s7771.cdn.mytvnet.vn/pkg20/live_dzones/wtv.smil/manifest.mpd
+Celestial Movies,https://linearjitp-playback.astro.com.my/dash-wv/linear/506/default_primary.mpd
+Hits Now,https://linearjitp-playback.astro.com.my/dash-wv/linear/5110/default_primary.mpd
+Hits Movies,https://linearjitp-playback.astro.com.my/dash-wv/linear/2305/default_primary.mpd
+V+ Galaxy,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+Hits,https://linearjitp-playback.astro.com.my/dash-wv/linear/606/default_primary.mpd
+Moviesphere by Lionsgate,https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
+Zee Bioskop,http://202.150.165.66:8088/play/110-ZeeBioskop/index.m3u8
+Warner TV (C),http://103.196.177.230:80/mike/mike123/79.m3u8
+Anime 24/7 TCL,https://amg01923-amg01923c113-amgplt0019.playout.now3.amagi.tv/ts-us-w2-n1/playlist/amg01923-amg01923c113-amgplt0019/playlist.m3u8
+ROCK Action,https://linearjitp-playback.astro.com.my/dash-wv/linear/5143/default_primary.mpd
+Animax (B),https://d84q7nw4qf3j3.cloudfront.net/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
+Cinemax (C),http://103.196.177.230:80/mike/mike123/81.m3u8
+ROCK X-Stream,https://linearjitp-playback.astro.com.my/dash-wv/linear/5144/default_primary.mpd
+Astro Thangathirai,https://linearjitp-playback.astro.com.my/dash-wv/linear/2109/default_primary.mpd
+Astro Showtime,https://linearjitp-playback.astro.com.my/dash-wv/linear/5145/default_primary.mpd
+AXN Asia,https://linearjitp-playback.astro.com.my/dash-wv/linear/2303/default_primary.mpd
+Astro Showcase,https://linearjitp-playback.astro.com.my/dash-wv/linear/5054/default_primary.mpd
+Astro FAM-Time,https://linearjitp-playback.astro.com.my/dash-wv/linear/5186/default_primary.mpd
+WeDoTV Amor,https://amg00735-amg00735c15-astrosooka-singapore-6039.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamor-astrosookasingapore/playlist.m3u8
+WeDoTV Movies,https://amg00735-amg00735c46-astrosooka-singapore-7044.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedomoviesasia-astrosookasingapore/playlist.m3u8
+Zee Cinema,https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_primary.mpd
+Zee Tamil,https://linearjitp-playback.astro.com.my/dash-wv/linear/2311/default_primary.mpd
+Colors Hindi,https://linearjitp-playback.astro.com.my/dash-wv/linear/2611/default_primary.mpd
+iQIYI Chinese,https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_primary.mpd
+Astro AOD,https://linearjitp-playback.astro.com.my/dash-wv/linear/2706/default_primary.mpd
+TVB Xing He,https://linearjitp-playback.astro.com.my/dash-wv/linear/401/default_primary.mpd
+Miramax,https://linear-798.frequency.stream/mt/plex/798/hls/master/playlist.m3u8
+TVB Classic,https://linearjitp-playback.astro.com.my/dash-wv/linear/5016/default_primary.mpd
+Universal Movies,https://d4whmvwm0rdvi.cloudfront.net/10007/99991621/hls/master.m3u8?ads.xumo_channelId=99991621&ads.asnw=169843&ads.afid=158702674&ads.sfid=16926435&ads.csid=xumo__rottentomatoesrttv_ssai_cro&ads.*fw*is_lat=&ads.*fw*us_privacy=&ads.*fw*coppa=0&ads.*fw*did=&ads.*fw*vcid2=512116:&ads.*fw*app_bundle=&ads.*fw*app_store_url=&ads.*fw*content_category=&ads.*fw*content_genre=&ads.*fw*content_language=&ads.*fw*content_rating=&ads.*fw*deviceMake=&ads.*fw*device_model=&ads.*fw*deviceType=3-Connected_TV&ads.appVersion=&ads.appName=XumoPlay&ads.xumo_contentId=2659&ads.xumo_contentName=RottenTomatoesRTTV&ads.xumo_providerId=2659&ads.xumo_providerName=RottenTomatoesRTTV&ads.channelId=99991621&ads.*fw*ifa_type=
+HBO Family (B),http://tv.cloudcdn.me/live.ts?channelId=93779&uid=10223&deviceMac=00:1A:79:07:07:43
+HBO (C),http://tv.cloudcdn.me/live.ts?channelId=132161&uid=10223&deviceMac=00:1A:79:07:07:43
+HBO Hits (C),http://tv.cloudcdn.me/live.ts?channelId=132160&uid=10223&deviceMac=00:1A:79:07:07:43
+HBO Signature (B),http://tv.cloudcdn.me/live.ts?channelId=93744&uid=10223&deviceMac=00:1A:79:07:07:43
+KCM,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg02159-kcglobalmediasi-kcm-asia-hls-sooka-sooka/playlist.m3u8
+Roku Anime X HiDive,https://d3f088nnrrvkwf.cloudfront.net/v1/amc_anime_x_hidive_1/samsungheadend_us/latest/main/hls/playlist.m3u8
+Warner TV (A),http://202.150.165.66:8088/play/302-WarnerTV/index.m3u8
+BLUEANT Free Movies (A),https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-freemoviesastrosooka-sooka/playlist.m3u8
+JapanimTV,https://foxkidstv.be:3369/stream/play.m3u8
+Pocoyo (SamsungTV+),https://d16ecq77cfclte.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5k1orix10xp3/Pocoyo_GB.m3u8
+Crunchyroll,https://jmp2.uk/rok-307b3b9ea321539b9688148fc97a8bfd.m3u8
+
+Live Events & Pop-up Channels,#genre#
+Astro Event CH3,https://linearjitp-playback.astro.com.my/dash-wv/linear/5603/default_primary.mpd
+Astro Event CH5,https://linearjitp-playback.astro.com.my/dash-wv/linear/5605/default_primary.mpd
+Astro Event CH1,https://linearjitp-playback.astro.com.my/dash-wv/linear/5601/default_primary.mpd
+Astro Event CH2,https://linearjitp-playback.astro.com.my/dash-wv/linear/5602/default_primary.mpd
+Astro Event CH4,https://linearjitp-playback.astro.com.my/dash-wv/linear/5604/default_primary.mpd
+Astro 30th Anniversary (ENDS 31 OCTOBER),https://linearjitp-playback.astro.com.my/dash-wv/linear/5166/default_primary.mpd
+IRIB Iran Faratar 4K,https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
+HOY TV Hong Kong (For AFC Cup),https://cdn.qd.je/163189/hoy
+Telewebion Sport Iran 1,https://live-aburayhan1111.telewebion.ir/ek/sport1/live/playlist.m3u8?isp=NA&city=NA
+Telewebion Sport Iran 3,https://live-aburayhan1109.telewebion.ir/ek/sport3/live/playlist.m3u8?isp=NA&city=NA
+Telewebion Sport Iran 2,https://live-aburayhan1103.telewebion.ir/ek/sport2/live/playlist.m3u8?isp=NA&city=NA
+
+Cloud Channels by BambooCloud,#genre#
+Cartoons (USA),https://vodcdn.bamboo-cloud.com/livehls/68c525e1063044539b09c253/master.m3u8
+Cartoons & Travel Tour (ID),https://vodcdn.bamboo-cloud.com/livehls/68ef86320630444b1f796875/master.m3u8
+Southeast Asian Archives (Mostly Malaysia & Indonesia) (MY),https://vodcdn.bamboo-cloud.com/livehls/6901607706304423c1685213/master.m3u8
+
+Test Centre,#genre#
+TEST CENTRE 46 (spotv2-too),https://service.samproject.my.id/unifi/spoTV2.mpd
+TEST CENTRE 45 (spotv2-temp),https://service.samproject.my.id/unifi/spoTV2.mpd
+TEST CENTRE 49 (b2-temp),https://service.samproject.my.id/unifi/Bein2.mpd
+TEST CENTRE 48 (b1-too),https://service.samproject.my.id/unifi/Bein1.mpd
+TEST CENTRE 47 (b1-temp),https://service.samproject.my.id/unifi/Bein1.mpd
+TEST CENTRE 6 (8tv-manutd),https://service.samproject.my.id/unifi/8TV.mpd
+TEST CENTRE 44 (spotv-too),https://service.samproject.my.id/unifi/spoTV.mpd
+TEST CENTRE 54 (b4-too),https://service.samproject.my.id/unifi/Bein4.mpd
+TEST CENTRE 53 (b4-temp),https://service.samproject.my.id/unifi/Bein4.mpd
+TEST CENTRE 52 (b3-too),https://service.samproject.my.id/unifi/Bein3.mpd
+TEST CENTRE 51 (b3-temp),https://service.samproject.my.id/unifi/Bein3.mpd
+TEST CENTRE 7 (tv9-manutd-temp-tkn),https://service.samproject.my.id/unifi/TV9.mpd
+TEST CENTRE 40 (euro-too),https://service.samproject.my.id/unifi/EuroN.mpd
+TEST CENTRE 50 (b2-too),https://service.samproject.my.id/unifi/Bein2.mpd
+TEST CENTRE 4 (kpm7-manutd),https://service.samproject.my.id/unifi/Didik.mpd
+TEST CENTRE 39 (euro-temp),https://service.samproject.my.id/unifi/EuroN.mpd
+TEST CENTRE 5 (8tv-manutd-temp-tkn),https://service.samproject.my.id/unifi/8TV.mpd
+TEST CENTRE 43 (utdsp-temp),https://service.samproject.my.id/unifi/unifi1.mpd
+TEST CENTRE 44 (utdsp-too),https://service.samproject.my.id/unifi/unifi1.mpd
+TEST CENTRE 43 (spotv-temp),https://service.samproject.my.id/unifi/spoTV.mpd
+TEST CENTRE 32 (cmx-manutd),https://service.samproject.my.id/unifi/Cinemax.mpd
+TEST CENTRE 42 (legislative-too),https://service.samproject.my.id/unifi/parlimen.mpd
+TEST CENTRE 41 (legislative-temp),https://service.samproject.my.id/unifi/parlimen.mpd
+TEST CENTRE 36 (animax-manutd),https://service.samproject.my.id/unifi/Animax.mpd
+TEST CENTRE 10 (salampessy-too),https://service.samproject.my.id/unifi/Salam.mpd
+TEST CENTRE 9 (salampessy-temp),https://service.samproject.my.id/unifi/Salam.mpd
+TEST CENTRE 8 (tv9-manutd),https://service.samproject.my.id/unifi/TV9.mpd
+TEST CENTRE 12 (sense-too),https://service.samproject.my.id/unifi/Sensasi.mpd
+TEST CENTRE 13 (inspirasi-temp),https://service.samproject.my.id/unifi/Inspirasi.mpd
+TEST CENTRE 11 (sense-temp),https://service.samproject.my.id/unifi/Sensasi.mpd
+TEST CENTRE 35 (animax-manutd-temp-tkn),https://service.samproject.my.id/unifi/Animax.mpd
+TEST CENTRE 14 (inspirasi-too),https://service.samproject.my.id/unifi/Inspirasi.mpd
+TEST CENTRE 31 (cmx-manutd-temp-tkn),https://service.samproject.my.id/unifi/Cinemax.mpd
+TEST CENTRE 3 (kpm7-manutd-temp-tkn),https://service.samproject.my.id/unifi/Didik.mpd
+TEST CENTRE 37 (rockent-temp),https://service.samproject.my.id/unifi/RockEnt.mpd
+TEST CENTRE 38 (rockent-too),https://service.samproject.my.id/unifi/RockEnt.mpd
+TEST CENTRE 33 (warner-manutd-temp-tkn),https://service.samproject.my.id/unifi/WarnerTV.mpd
+TEST CENTRE 34 (warner-manutd),https://service.samproject.my.id/unifi/WarnerTV.mpd
+TEST CENTRE 27 (hitsbx-manutd-temp-tkn),https://service.samproject.my.id/unifi/HBOH.mpd
+TEST CENTRE 30 (fambx-manutd),https://service.samproject.my.id/unifi/HBOF.mpd
+TEST CENTRE 2 (tv3-manutd),https://service.samproject.my.id/unifi/TV3.mpd
+TEST CENTRE 1 (tv3-manutd-temp-tkn),https://service.samproject.my.id/unifi/TV3.mpd
+TEST CENTRE 29 (fambx-manutd-temp-tkn),https://service.samproject.my.id/unifi/HBOF.mpd
+TEST CENTRE 28 (hitsbx-manutd),https://service.samproject.my.id/unifi/HBOH.mpd
+TEST CENTRE 25 (hbo-manutd-temp-tkn),https://service.samproject.my.id/unifi/HBO.mpd
+TEST CENTRE 26 (hbo-manutd),https://service.samproject.my.id/unifi/HBO.mpd
+TEST CENTRE 15 (dagulp-temp),https://service.samproject.my.id/unifi/DEGUP.mpd
+TEST CENTRE 23 (cls-temp),https://service.samproject.my.id/unifi/CelestialC.mpd
+TEST CENTRE 24 (cls-too),https://service.samproject.my.id/unifi/CelestialC.mpd
+TEST CENTRE 19 (ds-manutd-temp-tkn),https://service.samproject.my.id/unifi/DuniaSin.mpd
+TEST CENTRE 16 (dagulp-too),https://service.samproject.my.id/unifi/DEGUP.mpd
+TEST CENTRE 18 (siaretro-too),https://service.samproject.my.id/unifi/SIAR.mpd
+TEST CENTRE 21 (pesona-temp),https://service.samproject.my.id/unifi/Pesona.mpd
+TEST CENTRE 22 (pesona-too),https://service.samproject.my.id/unifi/Pesona.mpd
+TEST CENTRE 17 (siaretro-temp),https://service.samproject.my.id/unifi/SIAR.mpd
+TEST CENTRE 20 (ds-manutd),https://service.samproject.my.id/unifi/DuniaSin.mpd
+TEST CENTRE 55 (nhk-lans),https://masterpl.hls.nhkworld.jp/hls/wp/live/master.m3u8
+TEST CENTRE 60 (edgesp-ph),http://136.239.158.18:6610/001/2/ch00000090990000001406/manifest.mpd?AuthInfo=v87HD9rEhwHiAdYyrP20Tg5pgSMSITY%2FHYvvCWJRp%2BrD3MimqPOP6OVIBIcXmXdDytokK1MIobcue1ImXa0ZEA%3D%3D&version=v1.0&BreakPoint=0&virtualDomain=001.live_hls.zte.com&programid=ch00000000000000001926&contentid=ch00000000000000001926&videoid=ch00000090990000001406&recommendtype=0&userid=1198953858973&boid=001&stbid=02%3A00%3A00%3A00%3A00%3A00&terminalflag=1&profilecode=&usersessionid=KQCW8SZJ4IXXXX&NeedJITP=1&JITPMediaType=DASH&JITPDRMType=NO
+TEST CENTRE 56 (viu-hk),http://120.234.44.98:18180/TV00000000000000000037@HHZT
+TEST CENTRE 61 (kd1-ro),https://stream1.kanald.ro/iphone/knd-live.m3u8
+TEST CENTRE 62 (kd2-ro),https://stream2.kanald.ro/iphone/knd2-live.m3u8
+
+Web Radio,#genre#
+Radio Muzik,https://live.radiomuzik.com/muzikfm-audio-hls_1.m3u8
+PMC Royalé,https://pmcrohls.wns.live/hls/stream.m3u8
+
+Astro Radio,#genre#
+SYOK Classic Rock,https://linearjitp-playback.astro.com.my/dash-wv/linear/124/default_primary.mpd
+SYOK Opus,https://linearjitp-playback.astro.com.my/dash-wv/linear/120/default_primary.mpd
+SYOK Osai,https://linearjitp-playback.astro.com.my/dash-wv/linear/131/default_primary.mpd
+SYOK Gold,https://linearjitp-playback.astro.com.my/dash-wv/linear/125/default_primary.mpd
+SYOK India Beat,https://linearjitp-playback.astro.com.my/dash-wv/linear/127/default_primary.mpd
+SYOK Jazz,https://linearjitp-playback.astro.com.my/dash-wv/linear/128/default_primary.mpd
+Gegar,https://linearjitp-playback.astro.com.my/dash-wv/linear/126/default_primary.mpd
+SYOK Bayu,https://linearjitp-playback.astro.com.my/dash-wv/linear/135/default_primary.mpd
+SYOK Kenyalang,https://linearjitp-playback.astro.com.my/dash-wv/linear/136/default_primary.mpd
+Zayan,https://linearjitp-playback.astro.com.my/dash-wv/linear/142/default_primary.mpd
+GO Xuan,https://linearjitp-playback.astro.com.my/dash-wv/linear/143/default_primary.mpd
+Raaga,https://linearjitp-playback.astro.com.my/dash-wv/linear/134/default_primary.mpd
+Melody FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/132/default_primary.mpd
+Sinar FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/130/default_primary.mpd
+Hitz FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/121/default_primary.mpd
+Mix FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/122/default_primary.mpd
+My FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/119/default_primary.mpd
+Lite FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/123/default_primary.mpd
+Era FM,https://linearjitp-playback.astro.com.my/dash-wv/linear/118/default_primary.mpd
+
+未分组,#genre#
+INTRO 2:,https://drive.usercontent.google.com/download?id=1ZjYbMvuZkldBkaW0ljvzWLpX0PXLekkc&export=download&authuser=0&confirm=t&uuid=12678fa0-e4d5-4b6c-b66d-e4a727e3953d&at=AFYLz4PVAc_8KRc_s1Giq0xLg3gu:1787320414005
+
+IPTV.Live,#genre#
+Bein Sports xtra esp,https://bein-esp-xumo.amagi.tv/playlist.m3u8
+
+NITRO,#genre#
+Fox Sports 1,https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tmpzbbdj9y/out/v1/962736723a534ba294e7592fef49827b/cenc.mpd
+Fox Sports 2,https://cors-everywhere-wc8b4.ondigitalocean.app/https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd
+
+Dens.tv,#genre#
+Metro TV HD,http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccc.m3u8
+MDTV,http://cdn.nng.cloudns.us/live/m3u8/id/6cdb3402d11f58d.m3u8
+Kompas TV,http://khano.nng.cloudns.us/live/m3u8/id/ae5f9d6bcd610b6.m3u8
+MOJI,http://cdn.nng.cloudns.us/live/m3u8/id/d4ff175b1e2d419.m3u8
+TVONE,http://cdn.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8
+BTV,https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
+RTV,http://khano.nng.cloudns.us/live/m3u8/id/590642f0a31efa5.m3u8
+SCTV,http://cdn.nng.cloudns.us/live/m3u8/id/2b8fc230e8f847a.m3u8
+Indosiar,http://cdn.nng.cloudns.us/live/m3u8/id/575eeb9f08dc8db.m3u8
+
+INDIHOME,#genre#
+ANTV,https://gist.githubusercontent.com/warningfm/a88760c3b6d8eee4db23461bf2b4dbe7/raw/5da4b859f429b88dd7e01f3c70541e2b97e8fab5/b630a001384603f.m3u8
+SIN PO TV (IND),https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
+RCTI,https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
+Trans 7,https://cdn08jtedge.indihometv.com/dassdvr/130/trans7/manifest_wuseetv.mpd
+iNews,https://cdn10jtedge.indihometv.com/atm/DASH/inews/manifest.mpd
+TVONE,https://cdn10jtedge.indihometv.com/atm/DASH/tvone/manifest.mpd
+WARNER TV (INDI),https://cdn10jtedge.indihometv.com/atm/DASH/warner/manifest.mpd
+TransTV,https://cdn08jtedge.indihometv.com/dassdvr/130/transtv/manifest_wuseetv.mpd
+
+VISION+,#genre#
+BBC World news (V+),https://visionplus.fazznet.my.id/out/v1/7d38a4525dfa42b08a94c22c173061da/index.mpd
+beIN SPORTS 3 (V+),https://visionplus.fazznet.my.id/out/v1/a265695db5cb461095cbfefc02ad793b/index.mpd
+Al Quran Al Kareem (V+),https://visionplus.fazznet.my.id/out/v1/099aba2d60b44679915cd56f303b975d/index.mpd
+Sanlih (V+),https://visionplus.fazznet.my.id/out/v1/a82a32a7b69f40f58ae25d619548d215/index.mpd
+beIN SPORTS (V+),https://visionplus.fazznet.my.id/out/v1/3b0660e05eed4d769521eb0275aab3ab/index.mpd
+beIN SPORTS 2 (V+),https://visionplus.fazznet.my.id/out/v1/cfca527d0f16403396a71b2d3d54c32f/index.mpd
+BBC Earth (V+),https://visionplus.fazznet.my.id/out/v1/4e5b2a283adf462c8b6b55b2ef059fac/index.mpd
+Nick Jr (V+),https://visionplus.fazznet.my.id/out/v1/27163af9499b4bcca2da96677b158efe/index.mpd
+Bali TV (V+),https://visionplus.fazznet.my.id/out/v1/44a2d1ab71a740babb233cf14832c59d/index.mpd
+Bandung TV (V+),https://visionplus.fazznet.my.id/out/v1/f16b53f0d5ed459da208c459049c9bb0/index.mpd
+AXN (V+),https://visionplus.fazznet.my.id/out/v1/456143d3b12140e1a872b25f067ddb62/index.mpd
+RTV (V+),https://visionplus.fazznet.my.id/out/v1/b0eebcecfb12424cb5f3c3cdb239f3c1/index.mpd
+RT (V+),https://visionplus.fazznet.my.id/out/v1/451249e7e3004f5aba228da284c2a649/index.mpd
+Aljazeera (V+),https://visionplus.fazznet.my.id/out/v1/b1d58fabf2764d52aa1e130f4a45d2af/index.mpd
+Food Travel,https://d84q7nw4qf3j3.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd|Referer=https://www.visionplus.id
+Rock Entertainment (V+),https://visionplus.fazznet.my.id/out/v1/4cae4723d4d54a7fb71020bd7939a202/index.mpd
+ABC (V+),https://visionplus.fazznet.my.id/out/v1/6c075b570f99473fa6715bb399bc9571/index.mpd
+Anhui (V+),https://visionplus.fazznet.my.id/out/v1/39a34211e80145678ce1616b52368f99/index.mpd
+SCTV HD,https://d3b0v7fggu5zwm.cloudfront.net/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd|Referer=https://www.visionplus.id
+Arirang (V+),https://visionplus.fazznet.my.id/out/v1/6f059cfe2653405aab54a7887f92ac39/index.mpd
+IDX (V+),https://visionplus.fazznet.my.id/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
+Rock Action (V+),https://visionplus.fazznet.my.id/out/v1/010bb28c19b64975b318d3b00f58b18b/index.mpd
+ANTV (V+),https://visionplus.fazznet.my.id/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd
+Indosiar (V+),https://visionplus.fazznet.my.id/out/v1/e930be336fed49e6b26a7554e113f7a4/index.mpd
+Nick (V+),https://visionplus.fazznet.my.id/out/v1/3fe6d9eb97ed455c942eb8d3d1c2c2e8/index.mpd
+JTV (V+),https://visionplus.fazznet.my.id/out/v1/77641c37b4834a9db823ec5137774973/index.mpd
+NHK (V+),https://visionplus.fazznet.my.id/out/v1/8decf3562fe943e88872ef868d6fb6a5/index.mpd
+Animax (V+),https://visionplus.fazznet.my.id/out/v1/ab3ef0f0e4144c3c8b7e60f1873a3bcc/index.mpd
+Muslim TV (V+),https://visionplus.fazznet.my.id/out/v1/a8f14e34c687494fb1454b88742db085/index.mpd
+NHK World Premium (V+),https://visionplus.fazznet.my.id/out/v1/85b02e02587747058c1940af6aa3d0fa/index.mpd
+Moonbug (V+),https://visionplus.fazznet.my.id/out/v1/198f7febb48c4c909d62977d88c195b0/index.mpd
+Metro TV (V+),https://visionplus.fazznet.my.id/out/v1/fd4360b1c12c4375848c8f085fd51d41/index.mpd
+Music TV (V+),https://visionplus.fazznet.my.id/out/v1/c20d75deb06f401aa89681a9e5054de7/index.mpd
+Lifetime (V+),https://visionplus.fazznet.my.id/out/v1/1880fc1b32d3449196e80345f6cd5918/index.mpd
+Moji (V+),https://visionplus.fazznet.my.id/out/v1/2f1c4190dcf045c9aafc447d54ef7c91/index.mpd
+Mentari TV (V+),https://visionplus.fazznet.my.id/out/v1/703a71abac3844748b1e68166242d4f3/index.mpd
+Love Nature (V+),https://visionplus.fazznet.my.id/out/v1/15500e8f0dc44058ba0431d39a8fed57/index.mpd
+MDTV (V+),https://visionplus.fazznet.my.id/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd
+RCTI (V+),https://visionplus.fazznet.my.id/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
+MNCTV World (V+),https://visionplus.fazznet.my.id/out/v1/52f468e951c14c6ba80d4d31c833fce6/index.mpd
+MNCTV (V+),https://visionplus.fazznet.my.id/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd
+IMC (Indonesia Movie Channel) (V+),https://visionplus.fazznet.my.id/out/v1/65432a4c12ca4a52abf473a0e41d7c7e/index.mpd
+BTV (V+),https://visionplus.fazznet.my.id/out/v1/3112ca4fbc2642e79ecaf9b2b0999e07/index.mpd
+Kix (V+),https://visionplus.fazznet.my.id/out/v1/7a50d44c0a154dd29880c3728fb49a56/index.mpd
+LIFE (V+),https://visionplus.fazznet.my.id/out/v1/a61250017f23459692bf28a6841cf087/index.mpd
+Kompas TV (V+),https://visionplus.fazznet.my.id/out/v1/dafcaf8b26064ae7b27702088240b535/index.mpd
+Kids TV (V+),https://visionplus.fazznet.my.id/out/v1/9041826689ae4f9c9619576d411fa989/index.mpd
+JAK TV (V+),https://visionplus.fazznet.my.id/out/v1/fea2c4b90ae2472d891389eb8b95571c/index.mpd
+iNews (V+),https://visionplus.fazznet.my.id/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd
+Jiangsu TV (V+),https://visionplus.fazznet.my.id/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.mpd
+Reformed 21 (V+),https://visionplus.fazznet.my.id/out/v1/623c771560e443f2920ea5be99016b7e/index.mpd
+RCTI World (V+),https://visionplus.fazznet.my.id/out/v1/ac934bd649dc47f699f793634de01635/index.mpd
+Buddy Star (V+),https://visionplus.fazznet.my.id/out/v1/c70975aaa68d47f2a38799e6730a7816/index.mpd
+Outdoor Channel (V+),https://visionplus.fazznet.my.id/out/v1/c169ca1dcbe249c5bf233aabc3db4a4f/index.mpd
+beIN SPORTS 4 (V+),https://visionplus.fazznet.my.id/out/v1/2e55bc8199044c27b1dbb827af65a04f/index.mpd
+HITS Now (V+),https://visionplus.fazznet.my.id/out/v1/73b9fdd0cd0e4570b482c92fa43ecda9/index.mpd
+GTV (V+),https://visionplus.fazznet.my.id/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+Bloomberg (V+),https://visionplus.fazznet.my.id/out/v1/3212c95b42154b6284671f28cc2c943c/index.mpd
+TVRI (V+),https://visionplus.fazznet.my.id/out/v1/85f6d3da0e064dbe99e7bf1e18bc47c4/index.mpd
+Hunan TV (V+),https://visionplus.fazznet.my.id/out/v1/63e4d9f383cb4ca59317c7be9407e228/index.mpd
+Originals (V+),https://visionplus.fazznet.my.id/out/v1/e992e986a88346c18a5dcc4fbcdae6b9/index.mpd
+SindoNews (V+),https://visionplus.fazznet.my.id/out/v1/8c2df39f9b2842fbb997b89378841ad9/index.mpd
+Hits Movies (V+),https://visionplus.fazznet.my.id/out/v1/de93893d01e6446daaf052a7fec694fc/index.mpd
+Hits (V+),https://visionplus.fazznet.my.id/out/v1/333a9658ed6a4424a92e319114fb7111/index.mpd
+Cbeebies (V+),https://visionplus.fazznet.my.id/out/v1/2a5668fb3b9f4e34ab7c02cdc6ef56db/index.mpd
+beIN SPORTS 5 (V+),https://visionplus.fazznet.my.id/out/v1/fe4d00f07e2f43b789102b84b4d243a9/index.mpd
+Global Trekker (V+),https://visionplus.fazznet.my.id/out/v1/99b07f39f4964b7cb9bfc092b51af734/index.mpd
+Superrix (V+),https://visionplus.fazznet.my.id/out/v1/782400332c96440598260730a864bc6f/index.mpd
+Sportstars 4 (V+),https://visionplus.fazznet.my.id/out/v1/2fcc58ccec8c45e9aa094fb980eb642d/index.mpd
+Sportstars (V+),https://visionplus.fazznet.my.id/out/v1/89a6e4261cd7470f83e5869e90440cff/index.mpd
+SCTV (V+),https://visionplus.fazznet.my.id/out/v1/9e9aba7068ca4c7f8a73381bef5f8742/index.mpd
+Trans TV (V+),https://visionplus.fazznet.my.id/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd
+Shanghai Dragon (V+),https://visionplus.fazznet.my.id/out/v1/2c21b0f4792a42a09a7ed5fee3f010c0/index.mpd
+Studio Universal (V+),https://visionplus.fazznet.my.id/out/v1/dc63bd198bc44193b570e0567ff5b22c/index.mpd
+Thrill (V+),https://visionplus.fazznet.my.id/out/v1/3c619ecc120b46e999d1eaa627cc544f/index.mpd
+SpoTV 2 (V+),https://visionplus.fazznet.my.id/out/v1/46d9cf39b9a84183b8d5022ac8f4bc41/index.mpd
+Soccer Channel (V+),https://visionplus.fazznet.my.id/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
+Sportstars 3 (V+),https://visionplus.fazznet.my.id/out/v1/6f5596513af749c19d0bcdac013dda3c/index.mpd
+SpoTV 1 (V+),https://visionplus.fazznet.my.id/out/v1/b4814ae93ca84dd3bb5b0aff76ca263f/index.mpd
+CGTN (V+),https://visionplus.fazznet.my.id/out/v1/c3e6d7241fbf404082087774d7221635/index.mpd
+Uniques (V+),https://visionplus.fazznet.my.id/out/v1/bde0a6d8d3fd4d77ae5093ad2e6699dc/index.mpd
+Sportstars 2 (V+),https://visionplus.fazznet.my.id/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
+TVN Movies (V+),https://visionplus.fazznet.my.id/out/v1/096d5cf064294e7ea3a7f59ee2899669/index.mpd
+History (V+),https://visionplus.fazznet.my.id/out/v1/936ed6f98448469b924a0ce456586651/index.mpd
+Hanacaraka TV (V+),https://visionplus.fazznet.my.id/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
+Drama World (V+),https://visionplus.fazznet.my.id/out/v1/db82aed7a1864935b8b8f960651c3db7/index.mpd
+GTV World (V+),https://visionplus.fazznet.my.id/out/v1/b2c774f2a6fc4cd1917459335d8231df/index.mpd
+V+ LIVE 7 (V+),https://visionplus.fazznet.my.id/out/v1/113af3d432214f62bd6815f976bf2cd6/index.mpd
+France 24 (V+),https://visionplus.fazznet.my.id/out/v1/498b57e974a843d28ea1a393603e5318/index.mpd
+GALAXY PREMIUM (V+),https://visionplus.fazznet.my.id/out/v1/45c0752c6b6b4397b80243ac9fed96fd/index.mpd
+FOX News (V+),https://visionplus.fazznet.my.id/out/v1/444f3d7b909d470f9f5a55c781a79728/index.mpd
+V+ LIVE 8 (V+),https://visionplus.fazznet.my.id/out/v1/32aa4a6344fd435bb78826c719c11923/index.mpd
+EURONEWS (V+),https://visionplus.fazznet.my.id/out/v1/23af54d57d8a447dbf0621ec71d89e7e/index.mpd
+CGTN Documentary (V+),https://visionplus.fazznet.my.id/out/v1/9757e131659a4ab8ba08d448c4a3779e/index.mpd
+EWTN (V+),https://visionplus.fazznet.my.id/out/v1/96e20532df53449ab254f765073ec866/index.mpd
+V+ LIVE 6 (V+),https://visionplus.fazznet.my.id/out/v1/eb98aca0a1be41f7b9c05dac051a250e/index.mpd
+Fight Sports (V+),https://visionplus.fazznet.my.id/out/v1/73b7057c72da4615888a11b02a6cbb3c/index.mpd
+Food Travel (V+),https://visionplus.fazznet.my.id/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
+Entertainment (V+),https://visionplus.fazznet.my.id/out/v1/a90cb773466446b08595007bab12b920/index.mpd
+CCM (V+),https://visionplus.fazznet.my.id/out/v1/6bdbe6ce7f034807aba5f09bed048b05/index.mpd
+TV5Monde (V+),https://visionplus.fazznet.my.id/out/v1/16374447d35a49a596b9ff6cda259fe0/index.mpd
+TV MU (V+),https://visionplus.fazznet.my.id/out/v1/980cfe26ff00479c97eb8057a1129c7f/index.mpd
+DW (V+),https://visionplus.fazznet.my.id/out/v1/3c64eec3b1594ec98aa758ed334fa6a0/index.mpd
+TVN (V+),https://visionplus.fazznet.my.id/out/v1/6dc5412d26ea4e65961c825d866f2a34/index.mpd
+TVOne (V+),https://visionplus.fazznet.my.id/out/v1/f3df48faafaf4198a65b9763140fce30/index.mpd
+Dream Works (V+),https://visionplus.fazznet.my.id/out/v1/7518da9041c4414d86f173daa719152e/index.mpd
+TRT World (V+),https://visionplus.fazznet.my.id/out/v1/be2bcc4b75e348e5b331fc5f99aa3daf/index.mpd
+TV 9 (V+),https://visionplus.fazznet.my.id/out/v1/9688c51b534d4165bf4b0b328e53b980/index.mpd
+GALAXY (V+),https://visionplus.fazznet.my.id/out/v1/751a0982779f4edd904205eb351e220d/index.mpd
+Formosa (V+),https://visionplus.fazznet.my.id/out/v1/66f9fcf4947b425886af2289bb0c3244/index.mpd
+Trans 7 (V+),https://visionplus.fazznet.my.id/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/index.mpd
+Zoo Moo (V+),https://visionplus.fazznet.my.id/out/v1/8554b3cb938e44038093df2d65080932/index.mpd
+Zee Bioskop (V+),https://visionplus.fazznet.my.id/out/v1/81cb1af2ea4d4842a94f1c83957b4cd2/index.mpd
+DMI TV (V+),https://visionplus.fazznet.my.id/out/v1/319544fbde164be4b023d62fcd116d14/index.mpd
+Vision Prime (V+),https://visionplus.fazznet.my.id/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
+V+ Sports (V+),https://visionplus.fazznet.my.id/out/v1/f224a4945f2f48e892fb896645a9af6b/index.mpd
+Crime Investigation (V+),https://visionplus.fazznet.my.id/out/v1/384f26c1c3b74ce09fa60bed24719b79/index.mpd
+Cineedge (V+),https://visionplus.fazznet.my.id/out/v1/47c895ca72544fcfa4221c499b555a10/index.mpd
+DAAI TV (V+),https://visionplus.fazznet.my.id/out/v1/2b8aede350b84af18f9dd2e1de6b9c5e/index.mpd
+Channel News Asia (V+),https://visionplus.fazznet.my.id/out/v1/7295b950a9b44dd2bf622a7d7d25dbd3/index.mpd
+CNBC Asia (V+),https://visionplus.fazznet.my.id/out/v1/e8d3f81aae4b46fbacf545140b86f2c4/index.mpd
+Celestial Movies (V+),https://visionplus.fazznet.my.id/out/v1/fd25e662b7154c60a94f7c061573ba2d/index.mpd
+Celebrities TV (V+),https://visionplus.fazznet.my.id/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
+
+SPOTV,#genre#
+SPOTV,https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_spotvhd.mpd
+SPOTV 2 🇵🇭,https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd
+
+Saluran | Olahraga,#genre#
+Bein Sports xtra esp,https://bein-esp-xumo.amagi.tv/playlist.m3u8
+
+TNT Sport Pack,#genre#
+TNT Sports 1,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+TNT Sports 2,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+TNT Sports 3,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+TNT SPORTS 4,https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
+
+GO3 Sport Pack,#genre#
+GO3 Sport OPEN,https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd
+Go3 Sport 2,https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560505/index.mpd
+Go3 Sport 1,https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560502/index.mpd
+
+Vidio,#genre#
+Mentari TV,https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=8237
+
+INDONESIA TV,#genre#
+Trans 7,http://ktpremium.world:2095/live/xm1001/4757410/73609.m3u8
+
+RCTI+,#genre#
+GTV,https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
+iNews,https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
+MNCTV,https://r-plus.sedotcw3.workers.dev/index.m3u8?id=mnctv
+RCTI,https://r-plus.sedotcw3.workers.dev/index.m3u8?id=rcti
+
+🇮🇩 tvN150N,#genre#
+MDTV,http://khano.nng.cloudns.us/live/m3u8/id/6cdb3402d11f58d.m3u8
+ANTV,https://d84q7nw4qf3j3.cloudfront.net/out/v1/0a6c6b1534444ab4bd903af8761e6747/index.mpd|Referer=https://www.visionplus.id
+Trans TV,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/7a69cfc9e135493f87ac4efd63000429/index.mpd|Referer=https://www.visionplus.id
+DAAI TV,http://khano.nng.cloudns.us/live/m3u8/id/0525ed2747e3162.m3u8
+Music Information Channel,http://cdn.nng.cloudns.us/live/m3u8/id/0c913970f4e0137.m3u8
+Magna Channel,http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226cce.m3u8
+MNCTV,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/d6b026ad50f14b7f9af5ddd5450007d4/index.mpd|Referer=https://www.visionplus.id
+Elshinta TV,http://khano.nng.cloudns.us/live/m3u8/id/383fb71f4a76ab2.m3u8
+VTV 🇮🇩,https://gist.githubusercontent.com/warningfm/960699fadc282ca5a3c8db270f086a11/raw/cc6c795550360033c3dfec81926d30e79ec4d6e4/7e5676155536bd5.m3u8
+Saudi Sunna HD,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/17f9fc32339dd710eedcc27aa582553c49e6f67c/18d7c304801584a.m3u8
+Berita Satu,http://cdn.nng.cloudns.us/live/m3u8/id/270f72deeb5843g.m3u8
+MOJI,http://khano.nng.cloudns.us/live/m3u8/id/d4ff175b1e2d419.m3u8
+Kompas TV,http://khano.nng.cloudns.us/live/m3u8/id/ae5f9d6bcd610b6.m3u8
+Channel Jowo,http://khano.nng.cloudns.us/live/m3u8/id/1de333734b1b7e0.m3u8
+RCTI,https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd|Referer=https://www.visionplus.id
+GTV,https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd|Referer=https://www.visionplus.id
+TVRI Sport,https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
+iNews,https://d84q7nw4qf3j3.cloudfront.net/out/v1/34d8dd29eb1d4eba931c7c5ab5f4be09/index.mpd|Referer=https://www.visionplus.id
+TVMU,http://cdn.nng.cloudns.us/live/m3u8/id/MQGHZhlYFicsYHQ.m3u8
+Hanacaraka TV,https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd|Referer=https://www.visionplus.id
+TV9 Nusantara,http://cdn.nng.cloudns.us/live/m3u8/id/ca07a749e91966b.m3u8
+CNBC Indonesia,https://khano.nng.cloudns.us/live/m3u8/id/ef7e8c7bc86110e.m3u8
+TVRI Nasional HD,https://ott-balancer.tvri.go.id/live/eds/Nasional/hls/Nasional.m3u8
+TVOne HD,https://cdn.nng.cloudns.us/live/m3u8/id/0976f879a0c4548.m3u8
+RTV,http://cdn.nng.cloudns.us/live/m3u8/id/590642f0a31efa4.m3u8
+TVRI Jawa Timur,http://cdn.nng.cloudns.us/live/m3u8/id/3f58825fe229a8g.m3u8
+JTV,http://khano.nng.cloudns.us/live/m3u8/id/226fe77699e03c7.m3u8
+Metro TV HD,https://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccc.m3u8
+CNN Indonesia,https://khano.nng.cloudns.us/live/m3u8/id/d12f0b99ed1f070.m3u8
+DMI TV,http://cdn.nng.cloudns.us/live/m3u8/id/0c9fd875599b836.m3u8
+Garuda TV,https://cdn.nng.cloudns.us/live/m3u8/id/b825800cf4d3aaa.m3u8
+Trans 7,https://cdn.nng.cloudns.us/live/m3u8/id/cdd283c9d3d43b5.m3u8
+JakTV,http://cdn.nng.cloudns.us/live/m3u8/id/a6e7e966ea54cd3.m3u8
+BTV,http://khano.nng.cloudns.us/live/m3u8/id/270f72deeb5843f.m3u8
+Nusantara TV,https://cdn.nng.cloudns.us/live/m3u8/id/378a642ff00fed8.m3u8
+Mentari TV,https://nextgenz.my.id/event/pidio/play.mpd?id=8237&type=dash
+Indosiar HD,https://nextgenz.my.id/event/pidio/play.mpd?id=205&type=dash
+AlQuran Kareem,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/42482a972678b42f2802157785d20d6e56592aa1/f74b5dff8b8e6c6.m3u8
+YRF Music,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+SCTV HD,https://nextgenz.my.id/event/pidio/play.mpd?id=204&type=dash
+
+🌍 News,#genre#
+WION,http://khano.nng.cloudns.us/live/m3u8/ns/0a8c23a12b66e1b.m3u8
+Channel NewsAsia,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
+ABC Australia,https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/aplus.smil/manifest.mpd
+DW (English),https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+France 24 English,https://khano.nng.cloudns.us/live/m3u8/ns/dcba938c62f7539.m3u8
+NHK World Japan,https://khano.nng.cloudns.us/live/m3u8/ns/29fe33a8dc20fa3.m3u8
+NHK World Premium,http://khano.nng.cloudns.us/live/m3u8/ns/29fe33a8dc20fa4.m3u8
+IDX,https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd|Referer=https://www.visionplus.id
+TRT World,https://tv-trtworld.medya.trt.com.tr/master.m3u8
+Sindo News TV,https://d43tg978oium5.cloudfront.net/out/v1/8c2df39f9b2842fbb997b89378841ad9/index.mpd
+BLOOMBERG  TV HD,https://bloomberg.com/media-manifest/streams/asia.m3u8
+
+Arab,#genre#
+Makkah TV,https://gist.githubusercontent.com/warningfm/b04ba9b82d3b32b0929262e9daad5d11/raw/e642aba7d7d6b9b274ee61f1613bc831ad311db1/3058a2456b128c1.m3u8
+Al Arabiya,https://cdn.nng.cloudns.us/live/m3u8/ar/b8b58e25df2b3ce.m3u8
+AlJazeera Arabic,https://cdn.nng.cloudns.us/live/m3u8/ar/f5f5c18cf037918b.m3u8
+Dubai TV,http://cdn.nng.cloudns.us/live/m3u8/ar/bcc43de11a0e1b3.m3u8
+Al-Manar TV,https://edge.fastpublish.me/live/index.m3u8
+
+PHILIPPINE,#genre#
+Warner TV,https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_warnertvhd.mpd
+TELERADYO SERBISYO,https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/index.mpd
+TFC ᴴᴰ,https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
+MYX ᴴᴰ,https://d24xfhmhdb6r0q.cloudfront.net/out/v1/e897a7b6414a46019818ee9f2c081c4f/index.mpd
+CINEMA ONE ᴴᴰ,https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
+GMA PINOY TV,https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono/7c693236-e0c1-40a3-8bd0-bb25e43f5bfc/index.mpd
+TFC ENT ᴴᴰ,https://du44jtt5g7upx.cloudfront.net/out/v1/a3b708325c1d43dc9549c262526a6945/index.mpd
+CINEMO ᴴᴰ,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-cinemo-dash-abscbnono/index.mpd
