@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch public IPTV playlists and export channels into four categorized TXT files."""
+"""Fetch public IPTV playlists and export categorized channel lists."""
 
 from __future__ import annotations
 
@@ -20,6 +20,7 @@ SOURCES = (
     ("斗鱼一起看", "https://sub.ottiptv.cc/douyuyqk.m3u"),
     ("B站直播", "https://sub.ottiptv.cc/bililive.m3u"),
     ("YY轮播", "https://sub.ottiptv.cc/yylunbo.m3u"),
+    ("新增直播源", "https://live.yang-1989.eu.org/Live.m3u"),
 )
 
 OUTPUTS = {
@@ -32,6 +33,10 @@ ALL_OUTPUT = "iptv_all.txt"
 MAX_SOURCE_BYTES = 32 * 1024 * 1024
 REQUEST_TIMEOUT = 30
 
+# CCTV is deliberately classified before film/region keywords: every entry
+# whose channel name or M3U group identifies it as a CCTV/央视 channel belongs
+# in the live TV output, including CCTV-6, CCTV-5+, CCTV4K and CCTV specialty channels.
+CCTV_PATTERN = re.compile(r"CCTV|央视|中央电视台|中央臺", re.IGNORECASE)
 PATTERNS = {
     "港澳台地区源": re.compile(
         r"港澳台|香港|澳门|澳門|台湾|臺灣|台灣|凤凰|鳳凰|TVB|翡翠台|明珠台|Jade|Pearl|"
@@ -44,7 +49,6 @@ PATTERNS = {
         re.IGNORECASE,
     ),
     "央视卫视地方直播": re.compile(
-        r"(^|[^A-Z])CCTV\s?[-_]?[1-17](?:\s|$|[-_])|央视|中央电视台|中央臺|"
         r"卫视|衛視|地方台|省级|市级|新闻综合|新聞綜合|综合频道|綜合頻道|"
         r"北京台|上海台|东方卫视|東方衛視|江苏台|浙江台|湖南台|广东台|廣東台|"
         r"深圳台|山东台|山東台|安徽台|福建台|江西台|四川台|重庆台|重慶台|"
@@ -64,6 +68,7 @@ class Channel:
 
 
 def decode_source(data: bytes) -> str:
+    """Handle common playlist encodings, including UTF-8 BOM and GB18030."""
     for encoding in ("utf-8-sig", "gb18030", "utf-16"):
         try:
             return data.decode(encoding)
@@ -84,42 +89,53 @@ def fetch_source(label: str, url: str) -> str:
 
 
 def is_stream_url(value: str) -> bool:
-    return bool(re.match(r"^(?:https?|rtmp|rtsp|udp|p3p|tvbus)://", value, re.IGNORECASE))
+    # rtp is used by some text playlists; pipe parameters and query strings are
+    # intentionally left intact because players may need them.
+    return bool(re.match(r"^(?:https?|rtmp|rtsp|rtp|udp|p3p|tvbus)://", value, re.IGNORECASE))
 
 
 def parse_playlist(text: str, source_label: str) -> list[Channel]:
+    """Parse M3U/M3U8 and TVBox-style text (name,URL) playlists."""
     channels: list[Channel] = []
     pending_name = ""
-    pending_group = ""
+    current_group = ""
 
     for raw_line in text.splitlines():
         line = raw_line.strip().lstrip("\ufeff")
         if not line:
             continue
-        if line.startswith("#EXTINF"):
-            pending_group = ""
-            group_match = re.search(r'group-title=["\']([^"\']+)', line, re.IGNORECASE)
-            if group_match:
-                pending_group = group_match.group(1).strip()
-            title = line.rsplit(",", 1)[-1].strip() if "," in line else ""
-            name_match = re.search(r'tvg-name=["\']([^"\']+)', line, re.IGNORECASE)
-            pending_name = (name_match.group(1).strip() if name_match else title) or source_label
-            continue
-        if line.startswith("#"):
-            if ",#genre#" in line.lower():
-                pending_group = line.split(",", 1)[0].strip()
-            continue
 
-        if is_stream_url(line):
-            channels.append(Channel(pending_name or source_label, line, pending_group))
+        # TVBox text playlists mark sections as "group name,#genre#".
+        if ",#genre#" in line.lower():
+            current_group = line.split(",", 1)[0].strip()
             pending_name = ""
             continue
 
+        if line.startswith("#EXTINF"):
+            group_match = re.search(r'group-title=["\']([^"\']+)', line, re.IGNORECASE)
+            group = group_match.group(1).strip() if group_match else current_group
+            title = line.rsplit(",", 1)[-1].strip() if "," in line else ""
+            name_match = re.search(r'tvg-name=["\']([^"\']+)', line, re.IGNORECASE)
+            pending_name = (name_match.group(1).strip() if name_match else title) or source_label
+            current_group = group
+            continue
+
+        if line.startswith("#"):
+            # Skip M3U headers/options while retaining the pending EXTINF title.
+            continue
+
+        if is_stream_url(line):
+            channels.append(Channel(pending_name or source_label, line, current_group))
+            pending_name = ""
+            continue
+
+        # Plain text/TVBox format. Only treat the right-hand side as a channel
+        # when it starts with a supported stream scheme, not just any comma row.
         if "," in line:
             name, candidate_url = line.split(",", 1)
             name, candidate_url = name.strip(), candidate_url.strip()
             if is_stream_url(candidate_url):
-                channels.append(Channel(name or source_label, candidate_url, pending_group))
+                channels.append(Channel(name or source_label, candidate_url, current_group))
                 pending_name = ""
 
     return channels
@@ -127,6 +143,8 @@ def parse_playlist(text: str, source_label: str) -> list[Channel]:
 
 def classify(channel: Channel) -> str:
     searchable = f"{channel.name} {channel.group}"
+    if CCTV_PATTERN.search(searchable):
+        return "央视卫视地方直播"
     for category, pattern in PATTERNS.items():
         if pattern.search(searchable):
             return category
@@ -146,15 +164,36 @@ def render(channels: Iterable[Channel]) -> str:
     return "\n".join(lines) + ("\n" if lines else "")
 
 
+def write_outputs(grouped: dict[str, list[Channel]]) -> None:
+    for category, path in OUTPUTS.items():
+        content = render(grouped[category])
+        with open(path, "w", encoding="utf-8", newline="\n") as output:
+            output.write(f"{category},#genre#\n")
+            output.write(content)
+        print(f"Wrote {path}: {len(content.splitlines())} channels")
+
+    with open(ALL_OUTPUT, "w", encoding="utf-8", newline="\n") as output:
+        for category in OUTPUTS:
+            output.write(f"{category},#genre#\n")
+            output.write(render(grouped[category]))
+            output.write("\n")
+    print(f"Updated {ALL_OUTPUT}")
+
+
 def main() -> int:
     grouped: dict[str, list[Channel]] = {category: [] for category in OUTPUTS}
     successful_sources = 0
+    parsed_count = 0
 
     for label, url in SOURCES:
         try:
             text = fetch_source(label, url)
             entries = parse_playlist(text, label)
+            if not entries:
+                print(f"WARNING: fetched {label}, but found no supported channel entries", file=sys.stderr)
+                continue
             successful_sources += 1
+            parsed_count += len(entries)
             for channel in entries:
                 grouped[classify(channel)].append(channel)
             print(f"  parsed {len(entries)} channels")
@@ -162,24 +201,14 @@ def main() -> int:
             print(f"WARNING: failed to read {label} ({url}): {error}", file=sys.stderr)
         time.sleep(0.2)
 
-    if successful_sources == 0:
-        print("ERROR: all playlist sources failed; keeping existing output files.", file=sys.stderr)
+    # Do not replace good playlists with empty files if a site returned an HTML
+    # error page or all configured sources were temporarily unavailable.
+    if successful_sources == 0 or parsed_count == 0:
+        print("ERROR: no channels were parsed; existing output files were not changed.", file=sys.stderr)
         return 1
 
-    for category, path in OUTPUTS.items():
-        content = render(grouped[category])
-        with open(path, "w", encoding="utf-8", newline="\n") as output:
-            output.write(f"{category},#genre#\n")
-            output.write(content)
-        unique_count = sum(1 for line in content.splitlines() if "," in line)
-        print(f"Wrote {path}: {unique_count} channels")
-
-    with open(ALL_OUTPUT, "w", encoding="utf-8", newline="\n") as output:
-        for category, _path in OUTPUTS.items():
-            output.write(f"{category},#genre#\n")
-            output.write(render(grouped[category]))
-            output.write("\n")
-    print(f"Updated {ALL_OUTPUT}; {successful_sources}/{len(SOURCES)} sources fetched successfully.")
+    write_outputs(grouped)
+    print(f"Completed: {parsed_count} entries from {successful_sources}/{len(SOURCES)} sources.")
     return 0
 
 
