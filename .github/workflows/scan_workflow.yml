@@ -15,27 +15,38 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      - name: Test playlist parsers and classification
+        run: python -m unittest discover -s tests -v
+
       - name: Fetch and classify playlists
         run: python scan_iptv.py
 
       - name: Commit updated playlists
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add '央视卫视地方直播.txt' '影视线路.txt' '港澳台地区源.txt' '其他.txt' 'iptv_all.txt'
           if git diff --cached --quiet; then
             echo "No playlist changes to commit."
-          else
-            git commit -m "Refresh categorized IPTV playlists"
-            git push
+            exit 0
           fi
+          git commit -m "Refresh categorized IPTV playlists"
+          # A user or another workflow may have updated main during the scan.
+          # Rebase the generated commit before pushing to avoid non-fast-forward failures.
+          git fetch origin "$BRANCH_NAME"
+          git rebase "origin/$BRANCH_NAME"
+          git push origin "HEAD:$BRANCH_NAME"
