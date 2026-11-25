@@ -1,39 +1,41 @@
-name: Github全网扫描IPTV源
+name: IPTV playlist refresh
+
 on:
   schedule:
-    - cron: '0 */2 * * *' # 每2小时执行一次，不要太频繁防止github封号
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-playlist-refresh
+  cancel-in-progress: false
+
 jobs:
-  scan:
+  refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - name: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: git safe dir
-        run: git config --global --add safe.directory $PWD
-
-      - name: setup python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: install package
-        run: pip install requests
-
-      - name: run scan script
+      - name: Fetch and classify playlists
         run: python scan_iptv.py
 
-      - name: commit file
+      - name: Commit updated playlists
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scaniptv.txt
-          git commit -m "🤖自动扫描iptv更新 $(date +'%Y-%m-%d %H:%M')" || echo "无更新跳过提交"
-          git push
+          git add '央视卫视地方直播.txt' '影视线路.txt' '港澳台地区源.txt' '其他.txt' 'iptv_all.txt'
+          if git diff --cached --quiet; then
+            echo "No playlist changes to commit."
+          else
+            git commit -m "Refresh categorized IPTV playlists"
+            git push
+          fi
