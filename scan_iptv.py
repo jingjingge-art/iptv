@@ -43,6 +43,12 @@ SOURCES = (
     ("江苏电信组播", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/%E6%B1%9F%E8%8B%8F%E7%94%B5%E4%BF%A1.txt"),
      ("马来西亚1","https://pan.szfx.top/text.php?hash=3f68d6d98afaee73e7fbd82aa7da6793"),
     ("马来西亚2","https://pan.szfx.top/text.php?hash=065b05a1a43ff736d352b9a837bb2232"),
+    ("监控","https://raw.githubusercontent.com/jingjingge-art/youtube/refs/heads/main/iptv_%E7%9B%B4%E6%92%AD%E6%BA%90_all%2B%E5%8F%B0%E6%B9%BE_channels%E6%B2%AA%E8%8A%A6%E9%AB%98%E9%80%9F%E7%9B%91%E6%8E%A7%E6%BE%B3%E9%97%A8%E7%BE%8E%E5%9B%BD%E8%8B%B1%E5%9B%BD.txt"),
+    ("迈阿密","https://raw.githubusercontent.com/jingjingge-art/youtube/refs/heads/main/txiptv_zdy_%E8%BF%88%E9%98%BF%E5%AF%86all.txt"),
+    ("全球","https://raw.githubusercontent.com/jingjingge-art/youtube/refs/heads/main/%E5%85%A8%E7%90%83iptv%E5%8A%A0%E7%A7%BB%E5%8A%A8%E7%9B%91%E6%8E%A7.txt"),
+    ("江苏","https://raw.githubusercontent.com/jingjingge-art/youtube/refs/heads/main/%E6%B1%9F%E8%8B%8F%E9%A2%91%E9%81%93.txt"),
+
+    
 )
 
 OUTPUTS = {
