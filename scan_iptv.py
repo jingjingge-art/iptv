@@ -41,7 +41,8 @@ SOURCES = (
     ("MyTV直播源", "https://raw.githubusercontent.com/qingtian6325-lang/IPTV/main/mytv.m3u"),
     ("上海电信组播", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.txt"),
     ("江苏电信组播", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/%E6%B1%9F%E8%8B%8F%E7%94%B5%E4%BF%A1.txt"),
-
+     ("马来西亚1","https://pan.szfx.top/text.php?hash=3f68d6d98afaee73e7fbd82aa7da6793"),
+    ("马来西亚2","https://pan.szfx.top/text.php?hash=065b05a1a43ff736d352b9a837bb2232"),
 )
 
 OUTPUTS = {
