@@ -28,7 +28,7 @@ CHC家庭影院,http://116.237.170.51:7788/644368373
 CHC家庭影院,http://101.35.240.114:88/live.php?id=CHC家庭影院
 CHC影迷电影,http://116.237.170.51:7788/952383261
 CHC影迷电影,http://101.35.240.114:88/live.php?id=CHC影迷电影
-电视剧频道,http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=de2deb58bb749e87e0167610eb7915f1&wsTime=1795651408
+电视剧频道,http://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=dc5fa1c2986f13d44a25bc7e53a5d4ab&wsTime=1795658650
 CHC家庭影院,http://218.13.139.26:9901/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 CHC家庭影院,http://192.151.150.154/live/chcjt.m3u8
 CHC家庭影院,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=chcjt
@@ -314,33 +314,33 @@ JG影视解说,https://mursor.ottiptv.cc/douyu/9391277
 虎牙影院,https://live.yang-1989.eu.org/huya/11601968
 虎牙电影陪看,https://live.yang-1989.eu.org/huya/23177366
 火龙果说电影,https://live.yang-1989.eu.org/douyu/9559158
-鹿儿影视,https://live.yang-1989.eu.org/huya/30986994
 TheAsylumMovies,https://live.yang-1989.eu.org/twitch/theasylummovies
 河北影视,http://121.19.134.246:808/hls/22/index.m3u8#http://1.94.31.214/php/hebei.php?id=hbys
 辽宁影视,http://dassby.qqff.top:99/live/辽宁影视剧/index.m3u8
-辽宁影视剧,http://dassby.qqff.top:99/live/%E8%BE%BD%E5%AE%81%E5%BD%B1%E8%A7%86%E5%89%A7/index.m3u8#http://120.76.248.139/live/bfgd/4200000070.m3u8
+辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
 Jilin Movie Channel,https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8
 吉林影视,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/jlyspd/50/20261014/index.m3u8?msisdn=20261126040259ba6d97f80e4f4eb6ab454545ae8558fe&mdspid=&spid=600572&netType=0&sid=5910022522&pid=2028597139&timestamp=20261126040259&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=968553184&ParentNodeID=-99&assertID=5910022522&client_ip=171.8.79.254&SecurityKey=20261126040259&promotionId=&mvid=5900006892&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=4b4fd3abb185633f34d2aba9916d1fc7
 Harbin Movie Channel,https://stream.hrbtv.net/yspd/playlist.m3u8
 哈尔滨影视,http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild#http://stream.hrbtv.net/yspd/sd/live.m3u8
 上海东方影视,http://hlsztemgsplive.miguvideo.com:8080/wd_r4/dfl/dianshijuhd/600/index.m3u8?msisdn=2026112604025345fb2edc65c44407ba0e3782b601af5a&mdspid=&spid=699212&netType=0&sid=5500002274&pid=2028597139&timestamp=20261126040253&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=617290047&ParentNodeID=-99&assertID=5500002274&client_ip=171.8.79.254&SecurityKey=20261126040253&promotionId=&mvid=5100001715&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=6ea5223d5ce451bf0fd96b4a0c3c4504
-都市剧场,http://39.77.94.101:4002/rtp/239.253.254.98:8000#http://39.77.158.179:4002/rtp/239.253.254.98:8000
+都市剧场,http://39.77.94.101:4002/rtp/239.253.254.98:8000#http://171.8.138.124:8800/rtp/239.16.20.38:10380
 句容影院,http://jrlive.jrntv.com/live/_definst_/yingshis/chunklist_w1994429382.m3u8?zjiangsd
-江苏影视,http://hlsztemgsplive.miguvideo.com:8080/wd_r2/jstv/jsyingshi/600/index.m3u8?msisdn=202611260402547d58a402c250419694586afe7c72e27e&mdspid=&spid=699067&netType=0&sid=5500260517&pid=2028597139&timestamp=20261126040254&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064697&ParentNodeID=-99&assertID=5500260517&client_ip=171.8.79.254&SecurityKey=20261126040254&promotionId=&mvid=5100186424&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d6c2f92a052d08ad90c8d8bd77969fe7
-上虞文化影院,http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8
+江苏影视,http://221.226.51.220:50081/newlive/live/hls/22/live.m3u8#http://hlsztemgsplive.miguvideo.com:8080/wd_r2/jstv/jsyingshi/600/index.m3u8?msisdn=202611260402547d58a402c250419694586afe7c72e27e&mdspid=&spid=699067&netType=0&sid=5500260517&pid=2028597139&timestamp=20261126040254&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=626064697&ParentNodeID=-99&assertID=5500260517&client_ip=171.8.79.254&SecurityKey=20261126040254&promotionId=&mvid=5100186424&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d6c2f92a052d08ad90c8d8bd77969fe7
+上虞文化影院,http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8#http://l.cztvcloud.com/channels/lantian/SXshangyu2/720p.m3u8?zzhed
 新昌休闲影视,https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 浙江 I 绍兴影视,http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
-浙江教科影视,http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8#http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
+浙江教科影视,http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
 安徽影视,http://hsza.f3322.net:4000/rtp/238.1.79.42:4448
-南宁影视娱乐,http://hls.nntv.cn/nnlive/YSYL_244.m3u8#https://hls.nntv.cn/nnlive/YSYL_244.m3u8
-CHC动作电影,http://120.238.94.82:9901/tsfile/live/1052_1.m3u8#http://107.150.60.122/live/chcdz.m3u8
-CHC家庭影院,http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub#http://107.150.60.122/live/chcjt.m3u8
-CHC影迷电影,http://116.52.173.168:1234/952383261#http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/chcymdy/50/20250415/index.m3u8?msisdn=202611260402597e525aa102d54c80b92e9cd62920998c&mdspid=&spid=699004&netType=0&sid=5910022176&pid=2028597139&timestamp=20261126040259&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=952383261&ParentNodeID=-99&assertID=5910022176&client_ip=171.8.79.254&SecurityKey=20261126040259&promotionId=&mvid=5900006704&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=bfd82786042523c410722f0e5f1aa316
+韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
+韩国电影2,https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+南宁影视娱乐,https://hls.nntv.cn/nnlive/YSYL_244.m3u8#http://hls.nntv.cn/nnlive/YSYL_244.m3u8
+CHC动作电影,http://107.150.60.122/live/chcdz.m3u8#http://38.75.136.137:98/gslb/dsdqpub/chcdz.m3u8?auth=testpub
+CHC家庭影院,http://107.150.60.122/live/chcjt.m3u8#http://38.75.136.137:98/gslb/dsdqpub/chcjt.m3u8?auth=testpub
+CHC影迷电影,http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/chcymdy/50/20250415/index.m3u8?msisdn=202611260402597e525aa102d54c80b92e9cd62920998c&mdspid=&spid=699004&netType=0&sid=5910022176&pid=2028597139&timestamp=20261126040259&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=952383261&ParentNodeID=-99&assertID=5910022176&client_ip=171.8.79.254&SecurityKey=20261126040259&promotionId=&mvid=5900006704&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=bfd82786042523c410722f0e5f1aa316#http://116.237.170.51:7788/952383261
 CHC电影,http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 CHC高清电影,http://dassby.qqff.top:99/live/CHC高清/index.m3u8
-欢笑剧场,http://38.75.136.137:98/gslb/dsdqpub/hxjchd.m3u8?auth=testpub#http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hxjchd
 NewTV动作电影,http://dassby.qqff.top:99/live/CHC动作电影/index.m3u8
-刘德华电影,https://live.metshop.top/huya/11342424#https://yahu.445569.xyz/live/11342424
+刘德华电影,https://live.metshop.top/huya/11342424
 功夫电影,https://live.metshop.top/huya/11352941
 古天乐电影,https://live.metshop.top/huya/29982675
 周星驰电影,https://live.metshop.top/huya/11342412
@@ -349,37 +349,47 @@ NewTV动作电影,http://dassby.qqff.top:99/live/CHC动作电影/index.m3u8
 成龙电影,https://live.metshop.top/huya/11342386
 战争电影,https://live.metshop.top/huya/21059574
 末日电影合集,https://live.metshop.top/yy/1354889019
+李连杰电影,https://live.metshop.top/huya/11342390
 林正英电影,https://live.metshop.top/huya/11342421
+枪战电影,https://live.metshop.top/huya/21059579
 武侠电影,https://live.metshop.top/huya/11342427
 沈腾电影,https://live.metshop.top/huya/11601968
-淘剧场,http://www.ogrehq.com:20146/rtp/239.3.1.95:8001#http://qqdwtypm.f3322.org:64022/rtp/239.3.1.95:8001
+淘剧场,http://qqdwtypm.f3322.org:64022/rtp/239.3.1.95:8001
 狄仁杰电影,https://live.metshop.top/huya/30080229
 玄幻电影,https://live.metshop.top/huya/11342414
 王晶电影,https://live.metshop.top/huya/11602058
 甄子丹电影,https://live.metshop.top/huya/11352935
 电影丧尸片,http://live.metshop.top/huya/21059578?cdn=alicdn
+电影八点档,http://live.metshop.top/huya/880261?cdn=alicdn
+电影刘德华,http://live.metshop.top/huya/11342424?cdn=alicdn
 电影功夫片,http://live.metshop.top/huya/11352941?cdn=alicdn
 电影动作电影,http://live.metshop.top/huya/11602077?cdn=alicdn
+电影周星星,http://live.metshop.top/huya/11336587?cdn=alicdn
 电影喜剧专场,http://live.metshop.top/huya/11602044?cdn=alicdn
 电影嫣然影厅,http://live.metshop.top/huya/11601977?cdn=alicdn
+电影战争片,http://live.metshop.top/huya/21059574?cdn=alicdn
 电影搞笑喜剧,http://live.metshop.top/huya/11342423?cdn=alicdn
 电影梁家辉,http://live.metshop.top/huya/11342429?cdn=alicdn
+电影犯罪片,http://live.metshop.top/huya/11352974?cdn=alicdn
+电影蜘蛛侠,http://live.metshop.top/huya/21059599?cdn=alicdn
 电影谍战,http://live.metshop.top/huya/21059585?cdn=alicdn
 电影谍战片,http://live.metshop.top/huya/21059587?cdn=alicdn
+电影贺岁,http://live.metshop.top/huya/11601971?cdn=alicdn
 电影高分动作,http://live.metshop.top/huya/11352884?cdn=alicdn
 罪犯电影,https://live.metshop.top/huya/11352962
 谍战电影,https://live.metshop.top/huya/21059585
 贺岁电影,https://live.metshop.top/huya/11601986
 黄渤电影,https://live.metshop.top/huya/11352876
-电影最TOP,https://yahu.445569.xyz/live/11774959
-粤语电影,https://yahu.445569.xyz/live/11352894
+BBC Drama US,https://linear-938.frequency.stream/mt/vizio/938/hls/master/playlist.m3u8
+电影,https://yahu.445569.xyz/live/11352893
 30A TV Classic Movies,https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8
 FilmRise Anime,https://dvu7aia8rjlfm.cloudfront.net/master.m3u8
 FilmRise Classic TV,https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
 Gravitas Movies,https://d6dg3ebeih71x.cloudfront.net/Gravitas_Movies.m3u8
 Hallmark Movies & More,https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-TVS Western Movie,https://rpn.bozztv.com/gusa/gusa-tvswesternmovies/index.m3u8
+TVS Classic Movies,https://rpn.bozztv.com/gusa/gusa-tvsclassicmovies/index.m3u8
 Whiplash Cinema,https://cdn.whiplash.cc/whiplash-cinema/index.m3u8
+Star Cinema,https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 Shubh Cinema TV,https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
 Afra Film,https://afrafhls.wns.live/hls/stream.m3u8
 Cafe Film,https://cafefhls.wns.live/hls/stream.m3u8
@@ -389,18 +399,25 @@ Persiana Cinema,https://cinehls.persiana.live/hls/stream.m3u8
 Gospel Movie TV,https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 FilmUA Live,https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8
 AfroLand Drama,https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=6067
+Alfred Hitchcock Presents,https://xumo-xumoent-ch825-ku23q.fast.nbcuni.com/live/master.m3u8
 Aurora Media Films,https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8
-BET x Tyler Perry Drama,https://doumbtmvnsp0z.cloudfront.net/playlist.m3u8
+BBC Drama,https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/playlist.m3u8
 FILMBOX+ Festival,https://dash3.antik.sk/live/test_filmbox_arthouse_atk_1200/playlist.m3u8
-FilmGold Germany,https://mainstreamfilmgold-rakuten.amagi.tv/playlist.m3u8
+FilmRise Binge Watch France,https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883021
+FilmRise DeGrassi la nouvelle génération,https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883113
 FilmRise Les Routes du Paradis,https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883083
 FilmRise Z Nation France,https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883103
-Lifetime Movies Love & Drama,https://d1s7megtamek6r.cloudfront.net/Lifetime_Love_and_Drama.m3u8
+Jordan Drama,https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8
+K Drama by CJ ENM,https://d2fdocl6hmu0hh.cloudfront.net/dfa54c7d_1154_425d_a2b8_6ea994157976/hls/playlist.m3u8
+MBC Drama,https://mbc1-enc.edgenextcdn.net/out/v1/b0b3a0e6750d4408bb86d703d5feffd1/index.m3u8#https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
 MBC Masr Drama,https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
 Movie Bangla,http://alvetv.com/moviebanglatv/8080/index.m3u8
+Movies Action,https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
 Movies Thriller,https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
-MyTime Movie Network,https://appletree-mytimeuk-rakuten.amagi.tv/playlist.m3u8#https://appletree-mytime-samsungbrazil.amagi.tv/playlist.m3u8
+Mytime Movies,https://mytimefrance-rakuten-samsung.amagi.tv/playlist.m3u8
 OUTflix Movies,https://dg37ei3o66x3s.cloudfront.net/OutTV_US.m3u8
+Silk Way Cinema,https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
+Surf Cinema,https://amg13231-actve-amg13231c4-samsung-nz-3093.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungnz/playlist.m3u8#https://amg13231-actve-amg13231c4-samsung-au-2990.playouts.now.amagi.tv/playlist/amg13231-actvefast-surfer-samsungau/playlist.m3u8
 Toonami Aftermath Movies,http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
 华数4K电影,http://115.148.71.40:34567/udp/239.252.220.212:5140
 CHC影迷电影,http://223.167.230.155:4022/rtp/233.18.204.175:5140
@@ -530,19 +547,6 @@ EBC Foreign Movie,http://111.59.139.85:11888/tsfile/live/1217_1.m3u8?key=txiptv
 东阳影视生活,http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 浙江教科影视,http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
 浙江教科影院,http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
-刘德华电影,https://live.metshop.top/huya/11342424
-李连杰电影,https://live.metshop.top/huya/11342390
-枪战电影,https://live.metshop.top/huya/21059579
-电影八点档,http://live.metshop.top/huya/880261?cdn=alicdn
-电影刘德华,http://live.metshop.top/huya/11342424?cdn=alicdn
-电影周星星,http://live.metshop.top/huya/11336587?cdn=alicdn
-电影战争片,http://live.metshop.top/huya/21059574?cdn=alicdn
-电影犯罪片,http://live.metshop.top/huya/11352974?cdn=alicdn
-电影蜘蛛侠,http://live.metshop.top/huya/21059599?cdn=alicdn
-电影贺岁,http://live.metshop.top/huya/11601971?cdn=alicdn
-韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-韩国电影2,https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-辽宁影视剧,http://120.76.248.139/live/bfgd/4200000070.m3u8
 哈尔滨影视,http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
 冰冰影剧,http://www.goodiptv.club/douyu/74374
 华语影视,http://www.goodiptv.club/douyu/3928
@@ -2072,7 +2076,6 @@ A计划,https://vip.ffzy-play7.com/20221115/4631_7c6bb09a/2000k/hls/mixed.m3u8
 北京IPTV淘剧场,http://www.ogrehq.com:20146/rtp/239.3.1.95:8001
 北京影视,http://qqdwtypm.f3322.org:64022/rtp/239.3.1.158:8000
 淘电影,http://qqdwtypm.f3322.org:64022/rtp/239.3.1.250:8001
-淘剧场,http://qqdwtypm.f3322.org:64022/rtp/239.3.1.95:8001
 北京影视,http://114.242.62.109:888/hls/20/index.m3u8
 广东影视,http://hongzhijiaoyu.net:8188/udp/239.77.0.217:5146
 广东影视,http://lsa.familyds.com:8188/udp/239.77.0.217:5146
@@ -2158,3 +2161,54 @@ BesTV4K记录,http://223.167.230.155:4022/rtp/233.18.204.170:5140
 江苏影视,http://121.237.245.243:8888/rtp/239.49.8.118:8000
 都市剧场,http://121.237.245.243:8888/rtp/239.49.0.99:8000
 淮安影视娱乐,http://121.237.245.243:8888/rtp/239.49.0.192:8000
+ACTION HOLLYWOOD MOVIES,https://lightning-actionhollywood-xiaomi.amagi.tv/playlist.m3u8
+ASTRO BOO,http://217.216.110.49:8000/boop90
+FLICKS OF FURY,https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=112&deviceId=58e55b14ad8e9c364d55f717&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&checkedby:hlscat.com
+Zee Cinema,https://linearjitp02-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
+Celestial Movies HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/506/default_ott.mpd
+tvN Movies HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/2406/default_ott.mpd
+Hits Movies HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/2305/default_ott.mpd
+HBO HD,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBO&kid=7ad888ee-5dd6-496a-8c2c-77a6284ff936
+HBO Family +1 HD,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBOF&kid=98e8255f-ae9b-41ae-bb33-4645a916c82b
+HBO Hits +1 HD,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBOH&kid=437a4a8d-fb31-4f81-883c-7894c99e72bf
+CINEMAX HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/603/default_ott.mpd
+Showcase Movies,https://linearjitp-playback.astro.com.my/dash-wv/linear/5054/default_ott.mpd
+tvN Movies,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=tVnM&kid=52480b66-51c2-43e2-b48b-04ab3ecf05ec
+Celestial Movies,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=Celestial&kid=107e13b2-13a9-4a6c-bb6d-02c25653c083
+Celestial Classic Movies,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=CelestialC&kid=5dcc7b00-add7-4561-9ff1-dd29ac7e591c
+Zee Cinema HD,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=ZeeCinema&kid=22fdfcf5-cb30-4eb6-b2eb-becbca9c9d10
+Cinemax,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=Cinemax&kid=b83391c0-f7c6-4142-baa3-26b101c9f3d4
+HITS Movies,https://ptv2026.com/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=hitsM&kid=74ecb929-cd50-4143-bb68-bd0e7cac6f4e
+Zee Cinema HD,https://new-307.pages.dev/bpk-tv/ZeeCinema/output/manifest.mpd
+Asianet Movies,https://new-307.pages.dev/bpk-tv/AsianetMov/output/manifest.mpd
+Hub VV Drama HD,https://new-307.pages.dev/bpk-tv/HubVVDramaHD/output/manifest.mpd
+Cinema One Global,https://new-307.pages.dev/bpk-tv/CinemaOne/output/manifest.mpd
+HITS MOVIES HD,https://new-307.pages.dev/bpk-tv/HitsMoviesHD/output/manifest.mpd
+HBO HD,https://new-307.pages.dev/bpk-tv/HBOHD/output/manifest.mpd
+HBO Signature HD,https://new-307.pages.dev/bpk-tv/HBOSignatureHD/output/manifest.mpd
+HBO Family HD,https://new-307.pages.dev/bpk-tv/HBOFamilyHD/output/manifest.mpd
+HBO Hits HD,https://new-307.pages.dev/bpk-tv/HBOHitsHD/output/manifest.mpd
+Cinemax HD,https://new-307.pages.dev/bpk-tv/CinemaxHD/output/manifest.mpd
+Celestial Movies HD,https://new-307.pages.dev/bpk-tv/CelestialMoviesHD/output/manifest.mpd
+Hollywood Movies,https://tglmp04.akamaized.net/out/v1/6757703a338e4a11812c1dc3cdd43546/manifest.mpd
+Drama Hebat,https://tglmp02.akamaized.net/out/v1/f8119e31a0804f178a7d1f566d16600a/manifest.mpd
+Drama Hebat,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_1/dash.mpd
+Drama Hotpot,https://b27a6dd8a86c3e4ba93fbae22aaaac64.pmqrop.channel-assembly.mediatailor.ap-southeast-1.amazonaws.com/v1/channel/FAST_4/dash.mpd
+Free Movies,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-freemoviesastrosooka-sooka/playlist.m3u8
+WeDoTV Movies,https://amg00735-amg00735c46-astrosooka-singapore-7044.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedomoviesasia-astrosookasingapore/playlist.m3u8
+SPONGEBOB MOVIE 2020,https://bozzku.xyz/vodka/a21ba690-8c13-58c9-8e23-b2d9211c590a/default_dash.mpd
+THE GARFIELD MOVIE 2024,https://bozzku.xyz/vodka/1e4c8488-3fdf-53a9-b445-d5b0064d252d/default_dash.mpd
+HARRY POTTER 1 (HBO MAX),https://gcp.asia.prd.media.max.com/r/dash.mpd?manifest-params=r1%7CEnCpeKGaGbBTUykRBdftani5hyt2-pDzjdUbk3T7w3w%3D%7CZi5hdWRpb0NvZGVjPWhlYWFjJmYuYXVkaW9UcmFjaz1jbW4tVFclN0Nwcm9ncmFtJmYuYXVkaW9UcmFjaz1lbi1VUyU3Q2Rlc2NyaXB0aXZlJTJDcHJvZ3JhbSZmLmF1ZGlvVHJhY2s9dGglN0Nwcm9ncmFtJmYuYXVkaW9UcmFjaz15dWUlN0Nwcm9ncmFtJmYubWVyZ2VQZXJpb2RzPXRydWUmZi50ZXh0VHJhY2s9ZW4tVVMmZi50ZXh0VHJhY2s9aWQmZi50ZXh0VHJhY2s9bXMtTVkmZi50ZXh0VHJhY2s9dGgmZi50ZXh0VHJhY2s9emgtSGFucy1DTiZmLnRleHRUcmFjaz16aC1IYW50LVRXJTdDc3VidGl0bGUmZi52aWRlb0NvZGVjPWF2YyZmLnZpZGVvRHluYW1pY1JhbmdlPXNkciZmLnZpZGVvTWF4SGVpZ2h0PTEwODAmZi52aWRlb01heFdpZHRoPTE5MjAmci5kdXJhdGlvbj0zMC4wMDAwMDAmci5kdXJhdGlvbj05MTM3LjkyMDQ1OCZyLmtleW1vZD0yJnIubWFpbj0xJnIubWFuaWZlc3Q9MTg2MWQ1NTEtMTgwYS00NmU1LThlOTEtNDg2MTA1MzUyYTcwJTJGMF85NWRmZWYubXBkJnIubWFuaWZlc3Q9YTgwMmFiYTUtOTYyYi00MmU1LWE1MDItZWVlMzk0NmE3Yjk0JTJGOF9lY2ZjN2EubXBkJnIub3JpZ2luPWNmYyU3Q3ByZC13YmQtYXBhYy12b2Q%3D&x-wbd-tenant=beam&x-wbd-user-home-market=apac
+EJEN ALI THE MOVIE (2019),https://bozzku.xyz/vodka/6990e104-bb6c-5044-b8a4-71b02c94083e/default_primary.mpd
+BOBOIBOY MOVIE (2019),https://bozzku.xyz/vodka/e6ee43c8-212a-598d-88d9-f140f61f5a04/default_primary.mpd
+ABO Movies Thangathirai HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/2109/default_ott.mpd
+Zee Cinema,https://linearjitp-playback.astro.com.my/dash-wv/linear/5106/default_ott.mpd
+Showcase,http://linearjitp-playback.astro.com.my/dash-wv/linear/5054/default_ott.mpd
+HITS HD,https://linearjitp-playback.astro.com.my/dash-wv/linear/606/default_ott.mpd
+BOO HD,https://load.perfecttv.net/rwt.m3u8?username=vip_3klp0es8&password=wg3piwEs&channel=boo
+HBO HD,https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBO&kid=7ad888ee-5dd6-496a-8c2c-77a6284ff936
+HBO Hits +1 HD,https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBOH&kid=437a4a8d-fb31-4f81-883c-7894c99e72bf
+HBO Family +1 HD,https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=HBOF&kid=98e8255f-ae9b-41ae-bb33-4645a916c82b
+CINEMAX HD,https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=Cinemax&kid=b83391c0-f7c6-4142-baa3-26b101c9f3d4
+Warner TV HD,https://get.perfecttv.net/myunifi.mpd?username=vip_3klp0es8&password=wg3piwEs&channel=WarnerTV&kid=6f4ea7be-45af-4275-a8d7-6845fb19dba5
+Free Movies,https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01553-blueantmediaasi-freemovies-dash-sooka-sooka/index.mpd
