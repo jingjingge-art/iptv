@@ -21,6 +21,27 @@ SOURCES = (
     ("B站直播", "https://sub.ottiptv.cc/bililive.m3u"),
     ("YY轮播", "https://sub.ottiptv.cc/yylunbo.m3u"),
     ("新增直播源", "https://live.yang-1989.eu.org/Live.m3u"),
+    ("联通线路", "https://supprise0901.github.io/TVBox_live/live.txt"),
+    ("综合直播源1", "https://raw.githubusercontent.com/wnhhh/iptv-list/refs/heads/main/iptv.txt"),
+    ("组播汇总源", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/all.txt"),
+    ("大陆频道源", "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/cn.m3u"),
+    ("香港频道源", "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/hk.m3u"),
+    ("台湾频道源", "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/tw.m3u"),
+    ("综合直播源2", "https://raw.githubusercontent.com/ly36143614-byte/iptv-pub/refs/heads/main/tv.m3u"),
+    ("优选直播源1", "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u8"),
+    ("ITV直播源", "https://raw.githubusercontent.com/zzgpy1/ITV/refs/heads/main/output/tv.txt"),
+    ("Gitee直播源", "https://gitee.com/hw2837/iptv/raw/master/iptv"),
+    ("免费电视源", "https://raw.githubusercontent.com/adminouyang/jy/refs/heads/main/freetv/freetv.txt"),
+    ("酒店直播源1", "https://raw.githubusercontent.com/adminouyang/jy/refs/heads/main/Hotel/IPTV.txt"),
+    ("IPv4直播源", "https://raw.githubusercontent.com/adminouyang/TV/refs/heads/master/output/ipv4/result.txt"),
+    ("酒店直播源2", "https://raw.githubusercontent.com/adminouyang/jy/refs/heads/main/Hotel/HSMDTV/hsmd.m3u8"),
+    ("优选直播源2", "https://raw.githubusercontent.com/yanghanhanyingshi/GYYS/refs/heads/main/best_sorted.m3u"),
+    ("CDN直播源", "https://cdn.qd.je/live.m3u"),
+    ("电视直播30", "https://cnb.cool/fgvss/dszb1/-/git/raw/main/zbtv30.txt"),
+    ("MyTV直播源", "https://raw.githubusercontent.com/qingtian6325-lang/IPTV/main/mytv.m3u"),
+    ("上海电信组播", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1.txt"),
+    ("江苏电信组播", "https://raw.githubusercontent.com/adminouyang/231006/refs/heads/main/py/udpxy/output/%E6%B1%9F%E8%8B%8F%E7%94%B5%E4%BF%A1.txt"),
+
 )
 
 OUTPUTS = {
