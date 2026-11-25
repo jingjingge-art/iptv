@@ -1,170 +1,187 @@
-import requests
-import time
+#!/usr/bin/env python3
+"""Fetch public IPTV playlists and export channels into four categorized TXT files."""
+
+from __future__ import annotations
+
 import re
-import socket
+import sys
+import time
+from dataclasses import dataclass
+from typing import Iterable
+from urllib.error import HTTPError, URLError
+from urllib.request import Request, urlopen
 
-# Github token 填入，强烈建议配置token，大幅提升限额
-GITHUB_TOKEN = ""
-HEADERS = {}
-if GITHUB_TOKEN:
-    HEADERS["Authorization"] = f"token {GITHUB_TOKEN}"
+SOURCES = (
+    ("综合源", "https://raw.githubusercontent.com/best-fan/iptv-sources/refs/heads/main/cn_all_status.m3u8"),
+    ("综合源", "https://kakaxi.indevs.in/iptv.txt"),
+    ("IPv4源", "https://kakaxi.indevs.in/ipv4.txt"),
+    ("联通线路", "https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt"),
+    ("虎牙一起看", "https://sub.ottiptv.cc/huyayqk.m3u"),
+    ("斗鱼一起看", "https://sub.ottiptv.cc/douyuyqk.m3u"),
+    ("B站直播", "https://sub.ottiptv.cc/bililive.m3u"),
+    ("YY轮播", "https://sub.ottiptv.cc/yylunbo.m3u"),
+)
 
-CHANNEL_NAME_FILE_URL = "https://raw.githubusercontent.com/jingjingge-art/SHEYE/refs/heads/main/%E5%8F%B0%E6%B9%BE%E9%A2%91%E9%81%93%E5%90%8D%E5%90%88%E9%9B%86.txt"
-OUTPUT_FILE = "scaniptv.txt"
+OUTPUTS = {
+    "央视卫视地方直播": "央视卫视地方直播.txt",
+    "影视线路": "影视线路.txt",
+    "港澳台地区源": "港澳台地区源.txt",
+    "其他": "其他.txt",
+}
+ALL_OUTPUT = "iptv_all.txt"
+MAX_SOURCE_BYTES = 32 * 1024 * 1024
+REQUEST_TIMEOUT = 30
 
-CONNECT_TIMEOUT = 8
-READ_TIMEOUT = 12
-SKIP_ALIVE_CHECK = True # 先设置True，关闭存活检测！优先验证能不能搜到源，调试完成再改为False
+PATTERNS = {
+    "港澳台地区源": re.compile(
+        r"港澳台|香港|澳门|澳門|台湾|臺灣|台灣|凤凰|鳳凰|TVB|翡翠台|明珠台|Jade|Pearl|"
+        r"HOY|ViuTV|Now\s?TV|澳视|澳視|中天|民视|民視|华视|華視|东森|東森|三立|TVBS|Hami",
+        re.IGNORECASE,
+    ),
+    "影视线路": re.compile(
+        r"电影|影视频道|影视|剧场|戲劇|戏剧|影院|电视剧|紀錄片|纪录片|动作片|院线|"
+        r"CHC|HBO|CINEMAX|电影频道|電影|Movie|Movies|Film|Cinema|Drama|STAR\s?MOVIES|动作电影|动作影院",
+        re.IGNORECASE,
+    ),
+    "央视卫视地方直播": re.compile(
+        r"(^|[^A-Z])CCTV\s?[-_]?[1-17](?:\s|$|[-_])|央视|中央电视台|中央臺|"
+        r"卫视|衛視|地方台|省级|市级|新闻综合|新聞綜合|综合频道|綜合頻道|"
+        r"北京台|上海台|东方卫视|東方衛視|江苏台|浙江台|湖南台|广东台|廣東台|"
+        r"深圳台|山东台|山東台|安徽台|福建台|江西台|四川台|重庆台|重慶台|"
+        r"天津台|河北台|河南台|湖北台|广西台|廣西台|云南台|雲南台|贵州台|貴州台|"
+        r"辽宁台|遼寧台|吉林台|黑龙江台|黑龍江台|陕西台|陝西台|甘肃台|甘肅台|"
+        r"青海台|宁夏台|新疆台|内蒙古台|內蒙古台|海南台|厦门台|廈門台|大连台|大連台",
+        re.IGNORECASE,
+    ),
+}
 
 
-def clean_keyword(name):
-    # 清理关键词，去掉括号英文后缀，提升搜索命中率
-    name = re.sub(r'[（(].*?[）)]', '', name)
-    return name.strip()
+@dataclass(frozen=True)
+class Channel:
+    name: str
+    url: str
+    group: str = ""
 
 
-def get_channel_names():
-    resp = requests.get(CHANNEL_NAME_FILE_URL, timeout=30)
-    resp.raise_for_status()
-    lines = resp.text.splitlines()
-    channel_list = []
-    for line in lines:
-        line = line.strip()
+def decode_source(data: bytes) -> str:
+    for encoding in ("utf-8-sig", "gb18030", "utf-16"):
+        try:
+            return data.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return data.decode("utf-8", errors="replace")
+
+
+def fetch_source(label: str, url: str) -> str:
+    request = Request(url, headers={"User-Agent": "iptv-list-builder/1.0"})
+    with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+        data = response.read(MAX_SOURCE_BYTES + 1)
+    if len(data) > MAX_SOURCE_BYTES:
+        raise ValueError(f"source exceeds {MAX_SOURCE_BYTES} bytes")
+    text = decode_source(data)
+    print(f"Fetched {label}: {len(data)} bytes from {url}")
+    return text
+
+
+def is_stream_url(value: str) -> bool:
+    return bool(re.match(r"^(?:https?|rtmp|rtsp|udp|p3p|tvbus)://", value, re.IGNORECASE))
+
+
+def parse_playlist(text: str, source_label: str) -> list[Channel]:
+    channels: list[Channel] = []
+    pending_name = ""
+    pending_group = ""
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip().lstrip("\ufeff")
         if not line:
             continue
-        if line.endswith(",#genre#"):
+        if line.startswith("#EXTINF"):
+            pending_group = ""
+            group_match = re.search(r'group-title=["\']([^"\']+)', line, re.IGNORECASE)
+            if group_match:
+                pending_group = group_match.group(1).strip()
+            title = line.rsplit(",", 1)[-1].strip() if "," in line else ""
+            name_match = re.search(r'tvg-name=["\']([^"\']+)', line, re.IGNORECASE)
+            pending_name = (name_match.group(1).strip() if name_match else title) or source_label
             continue
-        channel_list.append(line)
-    return list(set(channel_list))
+        if line.startswith("#"):
+            if ",#genre#" in line.lower():
+                pending_group = line.split(",", 1)[0].strip()
+            continue
+
+        if is_stream_url(line):
+            channels.append(Channel(pending_name or source_label, line, pending_group))
+            pending_name = ""
+            continue
+
+        if "," in line:
+            name, candidate_url = line.split(",", 1)
+            name, candidate_url = name.strip(), candidate_url.strip()
+            if is_stream_url(candidate_url):
+                channels.append(Channel(name or source_label, candidate_url, pending_group))
+                pending_name = ""
+
+    return channels
 
 
-def github_search_code(keyword):
-    results = []
-    clean_word = clean_keyword(keyword)
-    # ✅ 修复搜索语法
-    query = f'"{clean_word}" extension:m3u OR "{clean_word}" extension:txt in:file'
-    url = f"https://api.github.com/search/code?q={query}"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=20)
-        print(f"[Search] keyword:{clean_word} status:{r.status_code}")
-        if r.status_code == 403:
-            print("⚠️ Github API 403 限流！")
-            time.sleep(120)
-            r = requests.get(url, headers=HEADERS, timeout=20)
-        data = r.json()
-        items = data.get("items", [])
-        print(f"      搜索命中仓库文件数量: {len(items)}")
-        for item in items:
-            repo_full_name = item["repository"]["full_name"]
-            file_path = item["path"]
-            branch = item["repository"].get("default_branch","main")
-            download_url = f"https://raw.githubusercontent.com/{repo_full_name}/{branch}/{file_path}"
-            results.append(download_url)
-    except Exception as e:
-        print(f"搜索异常 {keyword}: {e}")
-    return list(set(results))
+def classify(channel: Channel) -> str:
+    searchable = f"{channel.name} {channel.group}"
+    for category, pattern in PATTERNS.items():
+        if pattern.search(searchable):
+            return category
+    return "其他"
 
 
-def parse_source_file(file_url, target_channel):
-    out = []
-    try:
-        resp = requests.get(file_url, timeout=20)
-        text = resp.text
-        lines = text.splitlines()
-        i = 0
-        while i < len(lines):
-            line = lines[i].strip()
-            if line.startswith("#EXTINF"):
-                name_match = re.search(r',([^,\n]+)$', line)
-                if name_match:
-                    ch_name = name_match.group(1).strip()
-                    if clean_keyword(target_channel) in clean_keyword(ch_name):
-                        i += 1
-                        while i < len(lines) and lines[i].strip().startswith("#"):
-                            i += 1
-                        if i < len(lines):
-                            url = lines[i].strip()
-                            if url.startswith("http"):
-                                out.append((ch_name, url))
-            elif "," in line and not line.startswith("#"):
-                sp = line.split(",", maxsplit=1)
-                if len(sp) == 2 and sp[1].startswith("http"):
-                    ch_name, ch_url = sp[0].strip(), sp[1].strip()
-                    if clean_keyword(target_channel) in clean_keyword(ch_name):
-                        out.append((ch_name, ch_url))
-            i += 1
-    except Exception as e:
-        print(f"读取文件失败 {file_url} : {e}")
-    return out
+def render(channels: Iterable[Channel]) -> str:
+    lines: list[str] = []
+    seen: set[tuple[str, str]] = set()
+    for channel in channels:
+        key = (channel.name.casefold(), channel.url)
+        if key in seen:
+            continue
+        seen.add(key)
+        name = channel.name.replace("\r", " ").replace("\n", " ").replace(",", " ").strip()
+        lines.append(f"{name or '未命名频道'},{channel.url}")
+    return "\n".join(lines) + ("\n" if lines else "")
 
 
-def check_stream_alive(stream_url) -> bool:
-    try:
-        resp = requests.head(
-            stream_url,
-            timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
-            allow_redirects=True
-        )
-        if resp.status_code >= 200 and resp.status_code < 400:
-            return True
-    except (requests.exceptions.RequestException, socket.timeout):
-        pass
-    try:
-        resp = requests.get(
-            stream_url,
-            timeout=(CONNECT_TIMEOUT, READ_TIMEOUT),
-            allow_redirects=True,
-            stream=True
-        )
-        next(resp.iter_content(chunk_size=2048), b'')
-        if resp.status_code >= 200 and resp.status_code < 400:
-            return True
-    except (requests.exceptions.RequestException, socket.timeout):
-        return False
-    return False
+def main() -> int:
+    grouped: dict[str, list[Channel]] = {category: [] for category in OUTPUTS}
+    successful_sources = 0
 
+    for label, url in SOURCES:
+        try:
+            text = fetch_source(label, url)
+            entries = parse_playlist(text, label)
+            successful_sources += 1
+            for channel in entries:
+                grouped[classify(channel)].append(channel)
+            print(f"  parsed {len(entries)} channels")
+        except (HTTPError, URLError, TimeoutError, OSError, ValueError) as error:
+            print(f"WARNING: failed to read {label} ({url}): {error}", file=sys.stderr)
+        time.sleep(0.2)
 
-def main():
-    channels = get_channel_names()
-    print(f"✅ 加载频道总数 {len(channels)}")
-    raw_results = []
-    seen_url = set()
+    if successful_sources == 0:
+        print("ERROR: all playlist sources failed; keeping existing output files.", file=sys.stderr)
+        return 1
 
-    for ch in channels:
-        print(f"\n🔍 当前频道：{ch}")
-        source_url_list = github_search_code(ch)
-        for src_url in source_url_list:
-            match_list = parse_source_file(src_url, ch)
-            print(f"       在该文件匹配到频道线路数量：{len(match_list)}")
-            for name, link in match_list:
-                if link not in seen_url:
-                    seen_url.add(link)
-                    raw_results.append((name, link))
-        time.sleep(2)
+    for category, path in OUTPUTS.items():
+        content = render(grouped[category])
+        with open(path, "w", encoding="utf-8", newline="\n") as output:
+            output.write(f"{category},#genre#\n")
+            output.write(content)
+        unique_count = sum(1 for line in content.splitlines() if "," in line)
+        print(f"Wrote {path}: {unique_count} channels")
 
-    print(f"\n📋 收集候选线路总数：{len(raw_results)}")
-
-    valid_list = []
-    if not SKIP_ALIVE_CHECK:
-        print("开始活性检测...")
-        for idx, (ch_name, ch_url) in enumerate(raw_results):
-            print(f"[{idx+1}/{len(raw_results)}]检测 {ch_name}")
-            if check_stream_alive(ch_url):
-                print(f"✅存活 {ch_name}")
-                valid_list.append((ch_name, ch_url))
-    else:
-        valid_list = raw_results
-
-    output_lines = []
-    output_lines.append("扫描采集,#genre#")
-    for ch_name, ch_url in valid_list:
-        output_lines.append(f"{ch_name},{ch_url}")
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("\n".join(output_lines))
-
-    print(f"\n✅ 完成，输出文件 scaniptv.txt，有效线路：{len(valid_list)}")
+    with open(ALL_OUTPUT, "w", encoding="utf-8", newline="\n") as output:
+        for category, _path in OUTPUTS.items():
+            output.write(f"{category},#genre#\n")
+            output.write(render(grouped[category]))
+            output.write("\n")
+    print(f"Updated {ALL_OUTPUT}; {successful_sources}/{len(SOURCES)} sources fetched successfully.")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
